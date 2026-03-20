@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+../../build/manchester/manchester.egg-info/PKG-INFO
+../../build/manchester/manchester.egg-info/SOURCES.txt
+../../build/manchester/manchester.egg-info/dependency_links.txt
+../../build/manchester/manchester.egg-info/requires.txt
+../../build/manchester/manchester.egg-info/top_level.txt
+../../build/manchester/manchester.egg-info/zip-safe
+launch/visit_launch.py
+manchester/__init__.py
+resource/manchester

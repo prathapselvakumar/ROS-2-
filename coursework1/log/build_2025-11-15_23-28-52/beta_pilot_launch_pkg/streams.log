@@ -1,0 +1,15 @@
+[2.922s] Invoking command in '/home/student20/assessments/coursework1/build/beta_pilot_launch_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student20/assessments/coursework1/build/beta_pilot_launch_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student20/assessments/coursework1/install/beta_pilot_launch_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/student20/assessments/coursework1/build/beta_pilot_launch_pkg/build --no-deps symlink_data
+[3.781s] running develop
+[4.267s] running egg_info
+[4.328s] writing beta_pilot_launch_pkg.egg-info/PKG-INFO
+[4.331s] writing dependency_links to beta_pilot_launch_pkg.egg-info/dependency_links.txt
+[4.332s] writing requirements to beta_pilot_launch_pkg.egg-info/requires.txt
+[4.332s] writing top-level names to beta_pilot_launch_pkg.egg-info/top_level.txt
+[4.453s] reading manifest file 'beta_pilot_launch_pkg.egg-info/SOURCES.txt'
+[4.454s] writing manifest file 'beta_pilot_launch_pkg.egg-info/SOURCES.txt'
+[4.489s] running build_ext
+[4.489s] Creating /home/student20/assessments/coursework1/install/beta_pilot_launch_pkg/lib/python3.12/site-packages/beta-pilot-launch-pkg.egg-link (link to .)
+[4.490s] 
+[4.491s] Installed /home/student20/assessments/coursework1/build/beta_pilot_launch_pkg
+[4.491s] running symlink_data
+[4.560s] Invoked command in '/home/student20/assessments/coursework1/build/beta_pilot_launch_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student20/assessments/coursework1/build/beta_pilot_launch_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student20/assessments/coursework1/install/beta_pilot_launch_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/student20/assessments/coursework1/build/beta_pilot_launch_pkg/build --no-deps symlink_data

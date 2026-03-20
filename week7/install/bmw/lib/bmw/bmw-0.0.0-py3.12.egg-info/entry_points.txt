@@ -1,0 +1,2 @@
+[console_scripts]
+chair = bmw.chair:main

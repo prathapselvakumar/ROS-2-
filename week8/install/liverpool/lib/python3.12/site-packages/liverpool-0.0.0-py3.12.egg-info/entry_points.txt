@@ -1,0 +1,2 @@
+[console_scripts]
+grape = liverpool.grape:main

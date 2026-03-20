@@ -1,0 +1,39 @@
+[2.523s] Invoking command in '/home/student20/assessments/week7/src/bmw': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student20/assessments/week7/build/bmw/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student20/assessments/week7/install/bmw/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bmw build --build-base /home/student20/assessments/week7/build/bmw/build install --record /home/student20/assessments/week7/build/bmw/install.log --single-version-externally-managed install_data
+[3.143s] running egg_info
+[3.144s] creating ../../build/bmw/bmw.egg-info
+[3.184s] writing ../../build/bmw/bmw.egg-info/PKG-INFO
+[3.186s] writing dependency_links to ../../build/bmw/bmw.egg-info/dependency_links.txt
+[3.186s] writing entry points to ../../build/bmw/bmw.egg-info/entry_points.txt
+[3.187s] writing requirements to ../../build/bmw/bmw.egg-info/requires.txt
+[3.187s] writing top-level names to ../../build/bmw/bmw.egg-info/top_level.txt
+[3.187s] writing manifest file '../../build/bmw/bmw.egg-info/SOURCES.txt'
+[3.326s] reading manifest file '../../build/bmw/bmw.egg-info/SOURCES.txt'
+[3.329s] writing manifest file '../../build/bmw/bmw.egg-info/SOURCES.txt'
+[3.329s] running build
+[3.330s] running build_py
+[3.331s] creating /home/student20/assessments/week7/build/bmw/build
+[3.331s] creating /home/student20/assessments/week7/build/bmw/build/lib
+[3.332s] creating /home/student20/assessments/week7/build/bmw/build/lib/bmw
+[3.333s] copying bmw/chair.py -> /home/student20/assessments/week7/build/bmw/build/lib/bmw
+[3.334s] copying bmw/__init__.py -> /home/student20/assessments/week7/build/bmw/build/lib/bmw
+[3.334s] running install
+[3.354s] running install_lib
+[3.408s] creating /home/student20/assessments/week7/install/bmw/lib/bmw
+[3.408s] creating /home/student20/assessments/week7/install/bmw/lib/bmw/bmw
+[3.408s] copying /home/student20/assessments/week7/build/bmw/build/lib/bmw/chair.py -> /home/student20/assessments/week7/install/bmw/lib/bmw/bmw
+[3.409s] copying /home/student20/assessments/week7/build/bmw/build/lib/bmw/__init__.py -> /home/student20/assessments/week7/install/bmw/lib/bmw/bmw
+[3.411s] byte-compiling /home/student20/assessments/week7/install/bmw/lib/bmw/bmw/chair.py to chair.cpython-312.pyc
+[3.414s] byte-compiling /home/student20/assessments/week7/install/bmw/lib/bmw/bmw/__init__.py to __init__.cpython-312.pyc
+[3.414s] running install_data
+[3.415s] creating /home/student20/assessments/week7/install/bmw/share
+[3.416s] creating /home/student20/assessments/week7/install/bmw/share/ament_index
+[3.416s] creating /home/student20/assessments/week7/install/bmw/share/ament_index/resource_index
+[3.416s] creating /home/student20/assessments/week7/install/bmw/share/ament_index/resource_index/packages
+[3.417s] copying resource/bmw -> /home/student20/assessments/week7/install/bmw/share/ament_index/resource_index/packages
+[3.417s] creating /home/student20/assessments/week7/install/bmw/share/bmw
+[3.418s] copying package.xml -> /home/student20/assessments/week7/install/bmw/share/bmw
+[3.419s] running install_egg_info
+[3.474s] Copying ../../build/bmw/bmw.egg-info to /home/student20/assessments/week7/install/bmw/lib/bmw/bmw-0.0.0-py3.12.egg-info
+[3.477s] running install_scripts
+[3.847s] Installing chair script to /home/student20/assessments/week7/install/bmw/bin
+[3.848s] writing list of installed files to '/home/student20/assessments/week7/build/bmw/install.log'

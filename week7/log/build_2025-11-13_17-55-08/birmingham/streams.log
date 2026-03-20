@@ -1,0 +1,18 @@
+[1.485s] Invoking command in '/home/student20/assessments/week7/build/birmingham': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student20/assessments/week7/build/birmingham/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student20/assessments/week7/install/birmingham/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/student20/assessments/week7/build/birmingham/build --no-deps symlink_data --force
+[2.163s] running develop
+[2.441s] running egg_info
+[2.494s] writing birmingham.egg-info/PKG-INFO
+[2.494s] writing dependency_links to birmingham.egg-info/dependency_links.txt
+[2.495s] writing entry points to birmingham.egg-info/entry_points.txt
+[2.496s] writing requirements to birmingham.egg-info/requires.txt
+[2.496s] writing top-level names to birmingham.egg-info/top_level.txt
+[2.590s] reading manifest file 'birmingham.egg-info/SOURCES.txt'
+[2.591s] writing manifest file 'birmingham.egg-info/SOURCES.txt'
+[2.615s] running build_ext
+[2.615s] Creating /home/student20/assessments/week7/install/birmingham/lib/birmingham/birmingham.egg-link (link to .)
+[2.616s] Installing elderberry script to /home/student20/assessments/week7/install/birmingham/lib/birmingham
+[2.617s] 
+[2.617s] Installed /home/student20/assessments/week7/build/birmingham
+[2.617s] running symlink_data
+[2.617s] symbolically linking /home/student20/assessments/week7/build/birmingham/resource/birmingham -> /home/student20/assessments/week7/install/birmingham/share/ament_index/resource_index/packages
+[2.617s] symbolically linking /home/student20/assessments/week7/build/birmingham/package.xml -> /home/student20/assessments/week7/install/birmingham/share/birmingham

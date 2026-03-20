@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/liverpool/liverpool.egg-info/PKG-INFO
+writing dependency_links to ../../build/liverpool/liverpool.egg-info/dependency_links.txt
+writing entry points to ../../build/liverpool/liverpool.egg-info/entry_points.txt
+writing requirements to ../../build/liverpool/liverpool.egg-info/requires.txt
+writing top-level names to ../../build/liverpool/liverpool.egg-info/top_level.txt
+reading manifest file '../../build/liverpool/liverpool.egg-info/SOURCES.txt'
+writing manifest file '../../build/liverpool/liverpool.egg-info/SOURCES.txt'
+running build
+running build_py
+copying liverpool/grape.py -> /home/student20/assessments/week8/build/liverpool/build/lib/liverpool
+running install
+running install_lib
+copying /home/student20/assessments/week8/build/liverpool/build/lib/liverpool/grape.py -> /home/student20/assessments/week8/install/liverpool/lib/python3.12/site-packages/liverpool
+byte-compiling /home/student20/assessments/week8/install/liverpool/lib/python3.12/site-packages/liverpool/grape.py to grape.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/student20/assessments/week8/install/liverpool/lib/python3.12/site-packages/liverpool-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/liverpool/liverpool.egg-info to /home/student20/assessments/week8/install/liverpool/lib/python3.12/site-packages/liverpool-0.0.0-py3.12.egg-info
+running install_scripts
+Installing grape script to /home/student20/assessments/week8/install/liverpool/lib/liverpool
+writing list of installed files to '/home/student20/assessments/week8/build/liverpool/install.log'

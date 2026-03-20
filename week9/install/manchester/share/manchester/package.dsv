@@ -1,0 +1,4 @@
+source;share/manchester/hook/pythonpath.dsv
+source;share/manchester/hook/pythonpath.sh
+source;share/manchester/hook/ament_prefix_path.dsv
+source;share/manchester/hook/ament_prefix_path.sh

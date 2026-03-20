@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+../../build/package_b/package_b.egg-info/PKG-INFO
+../../build/package_b/package_b.egg-info/SOURCES.txt
+../../build/package_b/package_b.egg-info/dependency_links.txt
+../../build/package_b/package_b.egg-info/entry_points.txt
+../../build/package_b/package_b.egg-info/requires.txt
+../../build/package_b/package_b.egg-info/top_level.txt
+../../build/package_b/package_b.egg-info/zip-safe
+package_b/__init__.py
+package_b/node_b.py
+resource/package_b

@@ -1,0 +1,23 @@
+[1.837s] Invoking command in '/home/student20/assessments/week8/src/liverpool': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student20/assessments/week8/build/liverpool/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student20/assessments/week8/install/liverpool/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/liverpool build --build-base /home/student20/assessments/week8/build/liverpool/build install --record /home/student20/assessments/week8/build/liverpool/install.log --single-version-externally-managed install_data
+[2.237s] running egg_info
+[2.259s] writing ../../build/liverpool/liverpool.egg-info/PKG-INFO
+[2.260s] writing dependency_links to ../../build/liverpool/liverpool.egg-info/dependency_links.txt
+[2.261s] writing entry points to ../../build/liverpool/liverpool.egg-info/entry_points.txt
+[2.261s] writing requirements to ../../build/liverpool/liverpool.egg-info/requires.txt
+[2.262s] writing top-level names to ../../build/liverpool/liverpool.egg-info/top_level.txt
+[2.328s] reading manifest file '../../build/liverpool/liverpool.egg-info/SOURCES.txt'
+[2.330s] writing manifest file '../../build/liverpool/liverpool.egg-info/SOURCES.txt'
+[2.331s] running build
+[2.331s] running build_py
+[2.332s] running install
+[2.344s] running install_lib
+[2.390s] warning: install_lib: '/home/student20/assessments/week8/build/liverpool/build/lib' does not exist -- no Python modules to install
+[2.390s] 
+[2.390s] running install_data
+[2.391s] running install_egg_info
+[2.423s] removing '/home/student20/assessments/week8/install/liverpool/lib/python3.12/site-packages/liverpool-0.0.0-py3.12.egg-info' (and everything under it)
+[2.424s] Copying ../../build/liverpool/liverpool.egg-info to /home/student20/assessments/week8/install/liverpool/lib/python3.12/site-packages/liverpool-0.0.0-py3.12.egg-info
+[2.425s] running install_scripts
+[2.590s] Installing grape script to /home/student20/assessments/week8/install/liverpool/lib/liverpool
+[2.590s] writing list of installed files to '/home/student20/assessments/week8/build/liverpool/install.log'
+[2.678s] Invoked command in '/home/student20/assessments/week8/src/liverpool' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student20/assessments/week8/build/liverpool/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student20/assessments/week8/install/liverpool/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/liverpool build --build-base /home/student20/assessments/week8/build/liverpool/build install --record /home/student20/assessments/week8/build/liverpool/install.log --single-version-externally-managed install_data

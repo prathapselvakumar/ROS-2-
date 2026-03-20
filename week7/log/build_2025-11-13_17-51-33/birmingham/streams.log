@@ -1,0 +1,39 @@
+[2.128s] Invoking command in '/home/student20/assessments/week7/src/birmingham': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student20/assessments/week7/build/birmingham/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student20/assessments/week7/install/birmingham/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/birmingham build --build-base /home/student20/assessments/week7/build/birmingham/build install --record /home/student20/assessments/week7/build/birmingham/install.log --single-version-externally-managed install_data
+[2.932s] running egg_info
+[2.933s] creating ../../build/birmingham/birmingham.egg-info
+[2.988s] writing ../../build/birmingham/birmingham.egg-info/PKG-INFO
+[2.988s] writing dependency_links to ../../build/birmingham/birmingham.egg-info/dependency_links.txt
+[2.989s] writing entry points to ../../build/birmingham/birmingham.egg-info/entry_points.txt
+[2.990s] writing requirements to ../../build/birmingham/birmingham.egg-info/requires.txt
+[2.991s] writing top-level names to ../../build/birmingham/birmingham.egg-info/top_level.txt
+[2.991s] writing manifest file '../../build/birmingham/birmingham.egg-info/SOURCES.txt'
+[3.111s] reading manifest file '../../build/birmingham/birmingham.egg-info/SOURCES.txt'
+[3.113s] writing manifest file '../../build/birmingham/birmingham.egg-info/SOURCES.txt'
+[3.114s] running build
+[3.114s] running build_py
+[3.115s] creating /home/student20/assessments/week7/build/birmingham/build
+[3.115s] creating /home/student20/assessments/week7/build/birmingham/build/lib
+[3.116s] creating /home/student20/assessments/week7/build/birmingham/build/lib/birmingham
+[3.116s] copying birmingham/elderberry.py -> /home/student20/assessments/week7/build/birmingham/build/lib/birmingham
+[3.116s] copying birmingham/__init__.py -> /home/student20/assessments/week7/build/birmingham/build/lib/birmingham
+[3.117s] running install
+[3.137s] running install_lib
+[3.198s] creating /home/student20/assessments/week7/install/birmingham/lib/birmingham
+[3.199s] creating /home/student20/assessments/week7/install/birmingham/lib/birmingham/birmingham
+[3.199s] copying /home/student20/assessments/week7/build/birmingham/build/lib/birmingham/elderberry.py -> /home/student20/assessments/week7/install/birmingham/lib/birmingham/birmingham
+[3.199s] copying /home/student20/assessments/week7/build/birmingham/build/lib/birmingham/__init__.py -> /home/student20/assessments/week7/install/birmingham/lib/birmingham/birmingham
+[3.200s] byte-compiling /home/student20/assessments/week7/install/birmingham/lib/birmingham/birmingham/elderberry.py to elderberry.cpython-312.pyc
+[3.202s] byte-compiling /home/student20/assessments/week7/install/birmingham/lib/birmingham/birmingham/__init__.py to __init__.cpython-312.pyc
+[3.203s] running install_data
+[3.203s] creating /home/student20/assessments/week7/install/birmingham/share
+[3.205s] creating /home/student20/assessments/week7/install/birmingham/share/ament_index
+[3.206s] creating /home/student20/assessments/week7/install/birmingham/share/ament_index/resource_index
+[3.206s] creating /home/student20/assessments/week7/install/birmingham/share/ament_index/resource_index/packages
+[3.208s] copying resource/birmingham -> /home/student20/assessments/week7/install/birmingham/share/ament_index/resource_index/packages
+[3.208s] creating /home/student20/assessments/week7/install/birmingham/share/birmingham
+[3.209s] copying package.xml -> /home/student20/assessments/week7/install/birmingham/share/birmingham
+[3.209s] running install_egg_info
+[3.274s] Copying ../../build/birmingham/birmingham.egg-info to /home/student20/assessments/week7/install/birmingham/lib/birmingham/birmingham-0.0.0-py3.12.egg-info
+[3.280s] running install_scripts
+[3.690s] Installing elderberry script to /home/student20/assessments/week7/install/birmingham/bin
+[3.691s] writing list of installed files to '/home/student20/assessments/week7/build/birmingham/install.log'

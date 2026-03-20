@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+../../build/bmw/bmw.egg-info/PKG-INFO
+../../build/bmw/bmw.egg-info/SOURCES.txt
+../../build/bmw/bmw.egg-info/dependency_links.txt
+../../build/bmw/bmw.egg-info/entry_points.txt
+../../build/bmw/bmw.egg-info/requires.txt
+../../build/bmw/bmw.egg-info/top_level.txt
+../../build/bmw/bmw.egg-info/zip-safe
+bmw/__init__.py
+bmw/chair.py
+resource/bmw

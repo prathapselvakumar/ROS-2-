@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/jurassic_park/jurassic_park.egg-info
+writing ../../build/jurassic_park/jurassic_park.egg-info/PKG-INFO
+writing dependency_links to ../../build/jurassic_park/jurassic_park.egg-info/dependency_links.txt
+writing entry points to ../../build/jurassic_park/jurassic_park.egg-info/entry_points.txt
+writing requirements to ../../build/jurassic_park/jurassic_park.egg-info/requires.txt
+writing top-level names to ../../build/jurassic_park/jurassic_park.egg-info/top_level.txt
+writing manifest file '../../build/jurassic_park/jurassic_park.egg-info/SOURCES.txt'
+reading manifest file '../../build/jurassic_park/jurassic_park.egg-info/SOURCES.txt'
+writing manifest file '../../build/jurassic_park/jurassic_park.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/student20/assessments/week10/build/jurassic_park/build
+creating /home/student20/assessments/week10/build/jurassic_park/build/lib
+creating /home/student20/assessments/week10/build/jurassic_park/build/lib/jurassic_park
+copying jurassic_park/wake.py -> /home/student20/assessments/week10/build/jurassic_park/build/lib/jurassic_park
+copying jurassic_park/__init__.py -> /home/student20/assessments/week10/build/jurassic_park/build/lib/jurassic_park
+running install
+running install_lib
+creating /home/student20/assessments/week10/install/jurassic_park/lib/python3.12/site-packages/jurassic_park
+copying /home/student20/assessments/week10/build/jurassic_park/build/lib/jurassic_park/wake.py -> /home/student20/assessments/week10/install/jurassic_park/lib/python3.12/site-packages/jurassic_park
+copying /home/student20/assessments/week10/build/jurassic_park/build/lib/jurassic_park/__init__.py -> /home/student20/assessments/week10/install/jurassic_park/lib/python3.12/site-packages/jurassic_park
+byte-compiling /home/student20/assessments/week10/install/jurassic_park/lib/python3.12/site-packages/jurassic_park/wake.py to wake.cpython-312.pyc
+byte-compiling /home/student20/assessments/week10/install/jurassic_park/lib/python3.12/site-packages/jurassic_park/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/student20/assessments/week10/install/jurassic_park/share/ament_index
+creating /home/student20/assessments/week10/install/jurassic_park/share/ament_index/resource_index
+creating /home/student20/assessments/week10/install/jurassic_park/share/ament_index/resource_index/packages
+copying resource/jurassic_park -> /home/student20/assessments/week10/install/jurassic_park/share/ament_index/resource_index/packages
+copying package.xml -> /home/student20/assessments/week10/install/jurassic_park/share/jurassic_park
+running install_egg_info
+Copying ../../build/jurassic_park/jurassic_park.egg-info to /home/student20/assessments/week10/install/jurassic_park/lib/python3.12/site-packages/jurassic_park-0.0.0-py3.12.egg-info
+running install_scripts
+Installing wake script to /home/student20/assessments/week10/install/jurassic_park/lib/jurassic_park
+writing list of installed files to '/home/student20/assessments/week10/build/jurassic_park/install.log'

@@ -1,0 +1,2 @@
+[console_scripts]
+node_b = package_b.node_b:main

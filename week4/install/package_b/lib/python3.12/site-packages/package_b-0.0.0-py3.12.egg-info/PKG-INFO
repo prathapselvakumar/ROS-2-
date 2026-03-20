@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: package-b
+Version: 0.0.0
+Summary: Package B with node_b subscriber
+Maintainer: Student
+Maintainer-email: student@example.com
+License: Apache License 2.0

@@ -1,0 +1,2 @@
+[console_scripts]
+spark_plug = kia.spark_plug:main

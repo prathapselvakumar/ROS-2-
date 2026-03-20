@@ -1,0 +1,4 @@
+source;share/jurassic_park/hook/pythonpath.dsv
+source;share/jurassic_park/hook/pythonpath.sh
+source;share/jurassic_park/hook/ament_prefix_path.dsv
+source;share/jurassic_park/hook/ament_prefix_path.sh

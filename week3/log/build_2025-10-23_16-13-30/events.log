@@ -1,0 +1,12 @@
+[0.000000] (-) TimerEvent: {}
+[0.001012] (custom_message_package) JobQueued: {'identifier': 'custom_message_package', 'dependencies': OrderedDict()}
+[0.001193] (custom_publisher_package) JobQueued: {'identifier': 'custom_publisher_package', 'dependencies': OrderedDict()}
+[0.001242] (custom_subscriber_package) JobQueued: {'identifier': 'custom_subscriber_package', 'dependencies': OrderedDict()}
+[0.002293] (custom_message_package) JobStarted: {'identifier': 'custom_message_package'}
+[0.030684] (custom_publisher_package) JobStarted: {'identifier': 'custom_publisher_package'}
+[0.050167] (custom_subscriber_package) JobStarted: {'identifier': 'custom_subscriber_package'}
+[0.099578] (-) TimerEvent: {}
+[0.107506] (custom_message_package) JobEnded: {'identifier': 'custom_message_package', 'rc': 1}
+[0.109599] (custom_publisher_package) JobEnded: {'identifier': 'custom_publisher_package', 'rc': 'SIGINT'}
+[0.110418] (custom_subscriber_package) JobEnded: {'identifier': 'custom_subscriber_package', 'rc': 'SIGINT'}
+[0.120499] (-) EventReactorShutdown: {}

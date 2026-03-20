@@ -1,0 +1,24 @@
+[1.076s] Invoking command in '/home/student20/assessments/week8/src/kia': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student20/assessments/week8/build/kia/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student20/assessments/week8/install/kia/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/kia build --build-base /home/student20/assessments/week8/build/kia/build install --record /home/student20/assessments/week8/build/kia/install.log --single-version-externally-managed install_data
+[1.508s] running egg_info
+[1.533s] writing ../../build/kia/kia.egg-info/PKG-INFO
+[1.534s] writing dependency_links to ../../build/kia/kia.egg-info/dependency_links.txt
+[1.535s] writing entry points to ../../build/kia/kia.egg-info/entry_points.txt
+[1.536s] writing requirements to ../../build/kia/kia.egg-info/requires.txt
+[1.536s] writing top-level names to ../../build/kia/kia.egg-info/top_level.txt
+[1.583s] reading manifest file '../../build/kia/kia.egg-info/SOURCES.txt'
+[1.584s] writing manifest file '../../build/kia/kia.egg-info/SOURCES.txt'
+[1.584s] running build
+[1.584s] running build_py
+[1.585s] copying kia/syllabus.py -> /home/student20/assessments/week8/build/kia/build/lib/kia
+[1.585s] running install
+[1.590s] running install_lib
+[1.604s] copying /home/student20/assessments/week8/build/kia/build/lib/kia/syllabus.py -> /home/student20/assessments/week8/install/kia/lib/python3.12/site-packages/kia
+[1.604s] byte-compiling /home/student20/assessments/week8/install/kia/lib/python3.12/site-packages/kia/syllabus.py to syllabus.cpython-312.pyc
+[1.606s] running install_data
+[1.606s] running install_egg_info
+[1.639s] removing '/home/student20/assessments/week8/install/kia/lib/python3.12/site-packages/kia-0.0.0-py3.12.egg-info' (and everything under it)
+[1.640s] Copying ../../build/kia/kia.egg-info to /home/student20/assessments/week8/install/kia/lib/python3.12/site-packages/kia-0.0.0-py3.12.egg-info
+[1.642s] running install_scripts
+[1.777s] Installing syllabus script to /home/student20/assessments/week8/install/kia/lib/kia
+[1.778s] writing list of installed files to '/home/student20/assessments/week8/build/kia/install.log'
+[1.802s] Invoked command in '/home/student20/assessments/week8/src/kia' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student20/assessments/week8/build/kia/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student20/assessments/week8/install/kia/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/kia build --build-base /home/student20/assessments/week8/build/kia/build install --record /home/student20/assessments/week8/build/kia/install.log --single-version-externally-managed install_data

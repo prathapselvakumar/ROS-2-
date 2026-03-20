@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing birmingham.egg-info/PKG-INFO
+writing dependency_links to birmingham.egg-info/dependency_links.txt
+writing entry points to birmingham.egg-info/entry_points.txt
+writing requirements to birmingham.egg-info/requires.txt
+writing top-level names to birmingham.egg-info/top_level.txt
+reading manifest file 'birmingham.egg-info/SOURCES.txt'
+writing manifest file 'birmingham.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/student20/assessments/week7/install/birmingham/lib/birmingham/birmingham.egg-link (link to .)
+Installing elderberry script to /home/student20/assessments/week7/install/birmingham/lib/birmingham
+
+Installed /home/student20/assessments/week7/build/birmingham
+running symlink_data

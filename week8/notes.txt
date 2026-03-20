@@ -1,0 +1,44 @@
+kia  must be an ament_python ROS2 Package. The package must have a valid rclpy
+Node called syllabus. The node must spin indefinitely and shutdown cleanly when receiving a
+KeyboardInterrupt.
+
+a. The node must have TransformBroadcaster that periodically publishes
+transformations to the topic /tf. The period of publication must be 0.01 seconds. The
+frame of reference ID must be fusion_droid as defined for you. The child frame ID
+of the transformation must be robo_walker as defined for you. The timestamp must be
+obtained via the current clock time, as shown in the tutorials.
+
+Speed = 0.55 
+Axis = y
+The initial translation must be zero. The transform must be such that its
+translation defines a linear motion with speed given by speed [m/s], exclusively
+in the axis defined for you. For instance, movement in the x-axis, y-axis, or z-
+axis, depending on your value for axis. When integrating the position, consider
+the period of 0.01 seconds. The motion has no limit and should continue for as
+long as the node is running
+
+The transform must be such that there is no rotation with respect to the
+reference frame. This should be the case from the start and any future instance.
+
+
+
+liverpool must be an ament_python ROS2 Package. The package must have a valid rclpy
+Node called grape. The node must spin indefinitely and shutdown cleanly when receiving a
+KeyboardInterrupt
+
+The node must have a working TransformListener that subscribes to the topic
+/tf
+
+
+The node must look up the latest available transform of child_frame with
+respect to reference_frame. It must print, with rclpy.node.Node.
+get_logger().info(), the transform as shown in the tutorial. The print must
+happen, if and only if, the look up for the specified frame is successful. You can
+print an error message if it is not successful, as shown in the tutorial. The node
+can print this information periodically. It must print at least once before shutting
+down. Hint: When printed correctly, as shown in the tutorial, the output will include
+“geometry_msgs.msg.TransformStamped(” followed by all the contents of the transform. The name of the
+node, [INFO], and timestamp will appear when using get_logger().info().
+
+reference_frame = fusion_droid
+child_frame = robo_walker

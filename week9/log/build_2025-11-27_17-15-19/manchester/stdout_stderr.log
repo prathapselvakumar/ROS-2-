@@ -1,0 +1,32 @@
+running egg_info
+creating ../../build/manchester/manchester.egg-info
+writing ../../build/manchester/manchester.egg-info/PKG-INFO
+writing dependency_links to ../../build/manchester/manchester.egg-info/dependency_links.txt
+writing requirements to ../../build/manchester/manchester.egg-info/requires.txt
+writing top-level names to ../../build/manchester/manchester.egg-info/top_level.txt
+writing manifest file '../../build/manchester/manchester.egg-info/SOURCES.txt'
+reading manifest file '../../build/manchester/manchester.egg-info/SOURCES.txt'
+writing manifest file '../../build/manchester/manchester.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/student20/assessments/week9/build/manchester/build
+creating /home/student20/assessments/week9/build/manchester/build/lib
+creating /home/student20/assessments/week9/build/manchester/build/lib/manchester
+copying manchester/__init__.py -> /home/student20/assessments/week9/build/manchester/build/lib/manchester
+running install
+running install_lib
+creating /home/student20/assessments/week9/install/manchester/lib/python3.12/site-packages/manchester
+copying /home/student20/assessments/week9/build/manchester/build/lib/manchester/__init__.py -> /home/student20/assessments/week9/install/manchester/lib/python3.12/site-packages/manchester
+byte-compiling /home/student20/assessments/week9/install/manchester/lib/python3.12/site-packages/manchester/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/student20/assessments/week9/install/manchester/share/ament_index
+creating /home/student20/assessments/week9/install/manchester/share/ament_index/resource_index
+creating /home/student20/assessments/week9/install/manchester/share/ament_index/resource_index/packages
+copying resource/manchester -> /home/student20/assessments/week9/install/manchester/share/ament_index/resource_index/packages
+copying package.xml -> /home/student20/assessments/week9/install/manchester/share/manchester
+creating /home/student20/assessments/week9/install/manchester/share/manchester/launch
+copying launch/visit_launch.py -> /home/student20/assessments/week9/install/manchester/share/manchester/launch
+running install_egg_info
+Copying ../../build/manchester/manchester.egg-info to /home/student20/assessments/week9/install/manchester/lib/python3.12/site-packages/manchester-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/student20/assessments/week9/build/manchester/install.log'

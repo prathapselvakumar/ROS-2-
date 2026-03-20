@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/jurassic_park/jurassic_park.egg-info/PKG-INFO
+../../build/jurassic_park/jurassic_park.egg-info/SOURCES.txt
+../../build/jurassic_park/jurassic_park.egg-info/dependency_links.txt
+../../build/jurassic_park/jurassic_park.egg-info/entry_points.txt
+../../build/jurassic_park/jurassic_park.egg-info/requires.txt
+../../build/jurassic_park/jurassic_park.egg-info/top_level.txt
+../../build/jurassic_park/jurassic_park.egg-info/zip-safe
+jurassic_park/__init__.py
+jurassic_park/wake.py
+resource/jurassic_park
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

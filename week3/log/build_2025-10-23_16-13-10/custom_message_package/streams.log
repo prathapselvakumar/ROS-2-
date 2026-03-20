@@ -1,0 +1,53 @@
+[0.025s] Invoking command in '/home/student20/assessments/week3/build/custom_message_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/student20/assessments/week3/src/custom_message_package -DCMAKE_INSTALL_PREFIX=/home/student20/assessments/week3/install/custom_message_package
+[0.198s] -- The C compiler identification is GNU 13.3.0
+[0.372s] -- The CXX compiler identification is GNU 13.3.0
+[0.414s] -- Detecting C compiler ABI info
+[0.663s] -- Detecting C compiler ABI info - done
+[0.693s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.693s] -- Detecting C compile features
+[0.693s] -- Detecting C compile features - done
+[0.718s] -- Detecting CXX compiler ABI info
+[1.004s] -- Detecting CXX compiler ABI info - done
+[1.023s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.024s] -- Detecting CXX compile features
+[1.025s] -- Detecting CXX compile features - done
+[1.029s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.341s] -- Found Python3: /usr/local/bin/python3.10 (found version "3.10.11") found components: Interpreter 
+[1.572s] -- Found rosidl_cmake: 4.6.6 (/opt/ros/jazzy/share/rosidl_cmake/cmake)
+[1.576s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.830s] CMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[1.830s]   execute_process(/usr/local/bin/python3.10 -m rosidl_adapter --package-name
+[1.830s]   custom_message_package --arguments-file
+[1.830s]   /home/student20/assessments/week3/build/custom_message_package/rosidl_adapter__arguments__custom_message_package.json
+[1.830s]   --output-dir
+[1.831s]   /home/student20/assessments/week3/build/custom_message_package/rosidl_adapter/custom_message_package
+[1.831s]   --output-file
+[1.831s]   /home/student20/assessments/week3/build/custom_message_package/rosidl_adapter/custom_message_package.idls)
+[1.831s]   returned error code 1:
+[1.831s] 
+[1.831s]   Traceback (most recent call last):
+[1.831s] 
+[1.831s]     File "/usr/local/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[1.831s]       return _run_code(code, main_globals, None,
+[1.831s]     File "/usr/local/lib/python3.10/runpy.py", line 86, in _run_code
+[1.831s]       exec(code, run_globals)
+[1.831s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[1.831s]       sys.exit(main())
+[1.831s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 53, in main
+[1.831s]       abs_idl_file = convert_to_idl(
+[1.831s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 18, in convert_to_idl
+[1.831s]       from rosidl_adapter.msg import convert_msg_to_idl
+[1.832s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/msg/__init__.py", line 16, in <module>
+[1.832s]       from rosidl_adapter.resource import expand_template
+[1.832s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/resource/__init__.py", line 19, in <module>
+[1.832s]       import em
+[1.832s] 
+[1.832s]   ModuleNotFoundError: No module named 'em'
+[1.832s] 
+[1.832s] Call Stack (most recent call first):
+[1.832s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[1.832s]   CMakeLists.txt:11 (rosidl_generate_interfaces)
+[1.832s] 
+[1.832s] 
+[1.832s] -- Configuring incomplete, errors occurred!
+[1.842s] Invoked command in '/home/student20/assessments/week3/build/custom_message_package' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/student20/assessments/week3/src/custom_message_package -DCMAKE_INSTALL_PREFIX=/home/student20/assessments/week3/install/custom_message_package

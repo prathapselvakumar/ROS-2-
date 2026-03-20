@@ -1,0 +1,82 @@
+[0.000000] (-) TimerEvent: {}
+[0.001141] (jurassic_park) JobQueued: {'identifier': 'jurassic_park', 'dependencies': OrderedDict()}
+[0.003426] (jurassic_park) JobStarted: {'identifier': 'jurassic_park'}
+[0.099019] (-) TimerEvent: {}
+[0.199530] (-) TimerEvent: {}
+[0.300077] (-) TimerEvent: {}
+[0.400758] (-) TimerEvent: {}
+[0.501384] (-) TimerEvent: {}
+[0.602109] (-) TimerEvent: {}
+[0.702686] (-) TimerEvent: {}
+[0.804099] (-) TimerEvent: {}
+[0.904839] (-) TimerEvent: {}
+[1.007788] (-) TimerEvent: {}
+[1.108367] (-) TimerEvent: {}
+[1.209032] (-) TimerEvent: {}
+[1.309751] (-) TimerEvent: {}
+[1.413318] (-) TimerEvent: {}
+[1.514272] (-) TimerEvent: {}
+[1.614930] (-) TimerEvent: {}
+[1.716582] (-) TimerEvent: {}
+[1.817141] (-) TimerEvent: {}
+[1.918105] (-) TimerEvent: {}
+[2.019178] (-) TimerEvent: {}
+[2.119804] (-) TimerEvent: {}
+[2.220415] (-) TimerEvent: {}
+[2.321229] (-) TimerEvent: {}
+[2.423244] (-) TimerEvent: {}
+[2.525313] (-) TimerEvent: {}
+[2.630458] (-) TimerEvent: {}
+[2.731336] (-) TimerEvent: {}
+[2.834381] (-) TimerEvent: {}
+[2.936494] (-) TimerEvent: {}
+[3.037961] (-) TimerEvent: {}
+[3.139637] (-) TimerEvent: {}
+[3.188197] (jurassic_park) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/jurassic_park', 'build', '--build-base', '/home/student20/assessments/week10/build/jurassic_park/build', 'install', '--record', '/home/student20/assessments/week10/build/jurassic_park/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/student20/assessments/week10/src/jurassic_park', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'student20', 'LC_TIME': 'en_GB.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/antigravity/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'ANTIGRAVITY_CLI_ALIAS': 'agy', 'HOME': '/home/student20', 'CHROME_DESKTOP': 'antigravity.desktop', 'OLDPWD': '/home/student20/assessments/week10/src', 'TERM_PROGRAM_VERSION': '1.104.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/antigravity.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'cat', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/antigravity/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_GB.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/antigravity/antigravity', 'MANAGERPID': '2001', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2347', 'BUNDLED_DEBUGPY_PATH': '/home/student20/.antigravity/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'COLORTERM': 'truecolor', 'ANTIGRAVITY_AGENT': '1', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '123411', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/student20/assessments/week10/install:/home/student20/Week-9 Exe/install:/home/student20/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'student20', 'JOURNAL_STREAM': '9:20427', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1001.slice/user@1001.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'student20', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/student20/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/student20/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/student20/.antigravity/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/e-24ul523g78p:@/tmp/.ICE-unix/2283,unix/e-24ul523g78p:/tmp/.ICE-unix/2283', 'INVOCATION_ID': 'c84204cdcfe548869028a684de479efc', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_GB.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1001', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/student20/.antigravity/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-3d0f3c5fa67dbf75.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'PYTHONSTARTUP': '/home/student20/.config/Antigravity/User/workspaceStorage/caaec5ea40dae84bd909316fe70d655f/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'en_GB.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1001/.mutter-Xwaylandauth.CBL3G3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SBX_CHROME_API_RQ': '1', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1001/vscode-git-e92543aeb9.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1001/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/student20/assessments/week10/install/jurassic_park:/home/student20/Week-9 Exe/install/nav2_interaction_pkg:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'en_GB.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_GB.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_GB.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/student20/assessments/week10/build/jurassic_park', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/student20/assessments/week10/build/jurassic_park/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student20/assessments/week10/install/jurassic_park/lib/python3.12/site-packages:/home/student20/assessments/week10/install/jurassic_park/lib/python3.12/site-packages:/home/student20/Week-9 Exe/install/nav2_interaction_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_GB.UTF-8', 'LC_PAPER': 'en_GB.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[3.239873] (-) TimerEvent: {}
+[3.340642] (-) TimerEvent: {}
+[3.442225] (-) TimerEvent: {}
+[3.545364] (-) TimerEvent: {}
+[3.649374] (-) TimerEvent: {}
+[3.750179] (-) TimerEvent: {}
+[3.851321] (-) TimerEvent: {}
+[3.953708] (-) TimerEvent: {}
+[4.056015] (-) TimerEvent: {}
+[4.158874] (-) TimerEvent: {}
+[4.257931] (jurassic_park) StdoutLine: {'line': b'running egg_info\n'}
+[4.259362] (-) TimerEvent: {}
+[4.336579] (jurassic_park) StdoutLine: {'line': b'writing ../../build/jurassic_park/jurassic_park.egg-info/PKG-INFO\n'}
+[4.337086] (jurassic_park) StdoutLine: {'line': b'writing dependency_links to ../../build/jurassic_park/jurassic_park.egg-info/dependency_links.txt\n'}
+[4.337657] (jurassic_park) StdoutLine: {'line': b'writing entry points to ../../build/jurassic_park/jurassic_park.egg-info/entry_points.txt\n'}
+[4.339426] (jurassic_park) StdoutLine: {'line': b'writing requirements to ../../build/jurassic_park/jurassic_park.egg-info/requires.txt\n'}
+[4.339844] (jurassic_park) StdoutLine: {'line': b'writing top-level names to ../../build/jurassic_park/jurassic_park.egg-info/top_level.txt\n'}
+[4.359537] (-) TimerEvent: {}
+[4.460274] (-) TimerEvent: {}
+[4.498326] (jurassic_park) StdoutLine: {'line': b"reading manifest file '../../build/jurassic_park/jurassic_park.egg-info/SOURCES.txt'\n"}
+[4.500991] (jurassic_park) StdoutLine: {'line': b"writing manifest file '../../build/jurassic_park/jurassic_park.egg-info/SOURCES.txt'\n"}
+[4.502373] (jurassic_park) StdoutLine: {'line': b'running build\n'}
+[4.502978] (jurassic_park) StdoutLine: {'line': b'running build_py\n'}
+[4.504217] (jurassic_park) StdoutLine: {'line': b'copying jurassic_park/wake.py -> /home/student20/assessments/week10/build/jurassic_park/build/lib/jurassic_park\n'}
+[4.504792] (jurassic_park) StdoutLine: {'line': b'running install\n'}
+[4.526741] (jurassic_park) StdoutLine: {'line': b'running install_lib\n'}
+[4.560435] (-) TimerEvent: {}
+[4.606414] (jurassic_park) StdoutLine: {'line': b'copying /home/student20/assessments/week10/build/jurassic_park/build/lib/jurassic_park/wake.py -> /home/student20/assessments/week10/install/jurassic_park/lib/python3.12/site-packages/jurassic_park\n'}
+[4.609089] (jurassic_park) StdoutLine: {'line': b'byte-compiling /home/student20/assessments/week10/install/jurassic_park/lib/python3.12/site-packages/jurassic_park/wake.py to wake.cpython-312.pyc\n'}
+[4.614493] (jurassic_park) StdoutLine: {'line': b'running install_data\n'}
+[4.616264] (jurassic_park) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.661073] (-) TimerEvent: {}
+[4.704913] (jurassic_park) StdoutLine: {'line': b"removing '/home/student20/assessments/week10/install/jurassic_park/lib/python3.12/site-packages/jurassic_park-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[4.706204] (jurassic_park) StdoutLine: {'line': b'Copying ../../build/jurassic_park/jurassic_park.egg-info to /home/student20/assessments/week10/install/jurassic_park/lib/python3.12/site-packages/jurassic_park-0.0.0-py3.12.egg-info\n'}
+[4.710625] (jurassic_park) StdoutLine: {'line': b'running install_scripts\n'}
+[4.761417] (-) TimerEvent: {}
+[4.862371] (-) TimerEvent: {}
+[4.963145] (-) TimerEvent: {}
+[5.063905] (-) TimerEvent: {}
+[5.167071] (-) TimerEvent: {}
+[5.207441] (jurassic_park) StdoutLine: {'line': b'Installing wake script to /home/student20/assessments/week10/install/jurassic_park/lib/jurassic_park\n'}
+[5.216051] (jurassic_park) StdoutLine: {'line': b"writing list of installed files to '/home/student20/assessments/week10/build/jurassic_park/install.log'\n"}
+[5.267683] (-) TimerEvent: {}
+[5.349003] (jurassic_park) CommandEnded: {'returncode': 0}
+[5.375099] (-) TimerEvent: {}
+[5.412117] (jurassic_park) JobEnded: {'identifier': 'jurassic_park', 'rc': 0}
+[5.418313] (-) EventReactorShutdown: {}

@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: package-a
+Version: 0.0.0
+Summary: Package A with node_a publisher
+Maintainer: Student
+Maintainer-email: student@example.com
+License: Apache License 2.0

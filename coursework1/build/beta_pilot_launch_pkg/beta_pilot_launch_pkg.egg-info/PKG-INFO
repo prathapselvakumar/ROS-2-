@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: beta-pilot-launch-pkg
+Version: 0.0.0
+Summary: Launch package for robot and controller
+Maintainer: student20
+Maintainer-email: student20@example.com
+License: Apache License 2.0

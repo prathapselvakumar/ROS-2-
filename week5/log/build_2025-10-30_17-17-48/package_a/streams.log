@@ -1,0 +1,32 @@
+[1.247s] Invoking command in '/home/student20/assessments/week5/src/package_a': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student20/assessments/week5/build/package_a/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student20/assessments/week5/install/package_a/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/package_a build --build-base /home/student20/assessments/week5/build/package_a/build install --record /home/student20/assessments/week5/build/package_a/install.log --single-version-externally-managed install_data
+[1.769s] running egg_info
+[1.769s] creating ../../build/package_a/package_a.egg-info
+[1.795s] writing ../../build/package_a/package_a.egg-info/PKG-INFO
+[1.796s] writing dependency_links to ../../build/package_a/package_a.egg-info/dependency_links.txt
+[1.796s] writing requirements to ../../build/package_a/package_a.egg-info/requires.txt
+[1.796s] writing top-level names to ../../build/package_a/package_a.egg-info/top_level.txt
+[1.797s] writing manifest file '../../build/package_a/package_a.egg-info/SOURCES.txt'
+[1.853s] reading manifest file '../../build/package_a/package_a.egg-info/SOURCES.txt'
+[1.854s] writing manifest file '../../build/package_a/package_a.egg-info/SOURCES.txt'
+[1.855s] running build
+[1.855s] running build_py
+[1.855s] creating /home/student20/assessments/week5/build/package_a/build
+[1.856s] creating /home/student20/assessments/week5/build/package_a/build/lib
+[1.856s] creating /home/student20/assessments/week5/build/package_a/build/lib/package_a
+[1.856s] copying package_a/__init__.py -> /home/student20/assessments/week5/build/package_a/build/lib/package_a
+[1.856s] running install
+[1.869s] running install_lib
+[1.894s] creating /home/student20/assessments/week5/install/package_a/lib/python3.12/site-packages/package_a
+[1.894s] copying /home/student20/assessments/week5/build/package_a/build/lib/package_a/__init__.py -> /home/student20/assessments/week5/install/package_a/lib/python3.12/site-packages/package_a
+[1.894s] byte-compiling /home/student20/assessments/week5/install/package_a/lib/python3.12/site-packages/package_a/__init__.py to __init__.cpython-312.pyc
+[1.895s] running install_data
+[1.895s] creating /home/student20/assessments/week5/install/package_a/share/ament_index
+[1.895s] creating /home/student20/assessments/week5/install/package_a/share/ament_index/resource_index
+[1.895s] creating /home/student20/assessments/week5/install/package_a/share/ament_index/resource_index/packages
+[1.896s] copying resource/package_a -> /home/student20/assessments/week5/install/package_a/share/ament_index/resource_index/packages
+[1.896s] copying package.xml -> /home/student20/assessments/week5/install/package_a/share/package_a
+[1.896s] running install_egg_info
+[1.942s] Copying ../../build/package_a/package_a.egg-info to /home/student20/assessments/week5/install/package_a/lib/python3.12/site-packages/package_a-0.0.0-py3.12.egg-info
+[1.943s] running install_scripts
+[2.138s] writing list of installed files to '/home/student20/assessments/week5/build/package_a/install.log'
+[2.187s] Invoked command in '/home/student20/assessments/week5/src/package_a' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student20/assessments/week5/build/package_a/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student20/assessments/week5/install/package_a/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/package_a build --build-base /home/student20/assessments/week5/build/package_a/build install --record /home/student20/assessments/week5/build/package_a/install.log --single-version-externally-managed install_data

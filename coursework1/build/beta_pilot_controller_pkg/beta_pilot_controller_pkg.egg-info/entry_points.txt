@@ -1,0 +1,2 @@
+[console_scripts]
+beta_pilot_controller_node = beta_pilot_controller_pkg.beta_pilot_controller_node:main

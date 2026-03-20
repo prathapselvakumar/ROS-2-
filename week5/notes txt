@@ -1,0 +1,57 @@
+package_a : toyota
+node_a : brakes
+text : grace 
+service : bleed
+
+package_b : sheffield 
+node_b : blueberry
+
+
+Consider the following file structure. Files must follow the ROS2 convention as explained in the
+lecture and tutorials. A “test” folder may exist in each package, provided it does not interfere directly
+or indirectly with the build, source, or run processes.
+
+~/assessments/week5/src
+└── package_a
+├── package.xml
+├── package_a
+│ ├── __init__.py
+│ └── node_a.py
+├── resource
+│ └── package_a
+├── setup.cfg
+└── setup.py
+
+package_a must be an ament_python ROS2 Package. The package must have a valid rclpy
+Node called node_a. The node must spin indefinitely and shutdown cleanly when receiving a
+KeyboardInterrupt. Hint: Remember tools such as ‘ros2 pkg list’ and ‘ros2 pkg executables’.
+a. The node must have a service server for the service named service of type
+example_interfaces/srv/SetBool. Hint: Remember tools such as ‘ros2 service list’.
+[1 mark]
+b. When the service is called, its response must be such that. Hint: Remember tools such as
+‘ros2 service call’.
+i. the field success must be set to True.
+[1 mark]
+ii. the field message must be set to text
+[1 mark]
+
+/assessments/week5/src
+└── package_b
+├── package.xml
+├── package_b
+│ ├── __init__.py
+│ └── node_b.py
+├── resource
+│ └── package_b
+├── setup.cfg
+└── setup.py
+
+package_b must be an ament_python ROS2 Package. The package must have a valid rclpy
+Node called node_b. The node must spin indefinitely and shutdown cleanly when receiving a
+KeyboardInterrupt.
+a. The node must have a service client to the service called service of type
+example_interfaces/srv/SetBool. It must wait for the service to be available. It
+must call the service at least once.
+[1 mark]
+i. The request must be such that the field data must be set to True.
+[1 mark]

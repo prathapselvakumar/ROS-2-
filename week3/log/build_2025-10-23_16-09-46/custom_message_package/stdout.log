@@ -1,0 +1,4 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rosidl_cmake: 4.6.6 (/opt/ros/jazzy/share/rosidl_cmake/cmake)
+-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Configuring incomplete, errors occurred!

@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/birmingham/birmingham.egg-info
+writing ../../build/birmingham/birmingham.egg-info/PKG-INFO
+writing dependency_links to ../../build/birmingham/birmingham.egg-info/dependency_links.txt
+writing entry points to ../../build/birmingham/birmingham.egg-info/entry_points.txt
+writing requirements to ../../build/birmingham/birmingham.egg-info/requires.txt
+writing top-level names to ../../build/birmingham/birmingham.egg-info/top_level.txt
+writing manifest file '../../build/birmingham/birmingham.egg-info/SOURCES.txt'
+reading manifest file '../../build/birmingham/birmingham.egg-info/SOURCES.txt'
+writing manifest file '../../build/birmingham/birmingham.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/student20/assessments/week7/build/birmingham/build
+creating /home/student20/assessments/week7/build/birmingham/build/lib
+creating /home/student20/assessments/week7/build/birmingham/build/lib/birmingham
+copying birmingham/elderberry.py -> /home/student20/assessments/week7/build/birmingham/build/lib/birmingham
+copying birmingham/__init__.py -> /home/student20/assessments/week7/build/birmingham/build/lib/birmingham
+running install
+running install_lib
+creating /home/student20/assessments/week7/install/birmingham/lib/birmingham
+creating /home/student20/assessments/week7/install/birmingham/lib/birmingham/birmingham
+copying /home/student20/assessments/week7/build/birmingham/build/lib/birmingham/elderberry.py -> /home/student20/assessments/week7/install/birmingham/lib/birmingham/birmingham
+copying /home/student20/assessments/week7/build/birmingham/build/lib/birmingham/__init__.py -> /home/student20/assessments/week7/install/birmingham/lib/birmingham/birmingham
+byte-compiling /home/student20/assessments/week7/install/birmingham/lib/birmingham/birmingham/elderberry.py to elderberry.cpython-312.pyc
+byte-compiling /home/student20/assessments/week7/install/birmingham/lib/birmingham/birmingham/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/student20/assessments/week7/install/birmingham/share
+creating /home/student20/assessments/week7/install/birmingham/share/ament_index
+creating /home/student20/assessments/week7/install/birmingham/share/ament_index/resource_index
+creating /home/student20/assessments/week7/install/birmingham/share/ament_index/resource_index/packages
+copying resource/birmingham -> /home/student20/assessments/week7/install/birmingham/share/ament_index/resource_index/packages
+creating /home/student20/assessments/week7/install/birmingham/share/birmingham
+copying package.xml -> /home/student20/assessments/week7/install/birmingham/share/birmingham
+running install_egg_info
+Copying ../../build/birmingham/birmingham.egg-info to /home/student20/assessments/week7/install/birmingham/lib/birmingham/birmingham-0.0.0-py3.12.egg-info
+running install_scripts
+Installing elderberry script to /home/student20/assessments/week7/install/birmingham/bin
+writing list of installed files to '/home/student20/assessments/week7/build/birmingham/install.log'
