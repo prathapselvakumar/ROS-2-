@@ -1,0 +1,2 @@
+[console_scripts]
+vortex_droid_navigation_node = vortex_droid_navigation_pkg.vortex_droid_navigation_node:main

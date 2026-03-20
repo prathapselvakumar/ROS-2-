@@ -1,0 +1,37 @@
+[3.656s] Invoking command in '/home/student20/Downloads/coursework2/src/vortex_droid_controller_pkg': AMENT_PREFIX_PATH=/home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student20/Downloads/coursework2/build/vortex_droid_controller_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student20/Downloads/coursework2/install/vortex_droid_controller_pkg/lib/python3.12/site-packages:/home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vortex_droid_controller_pkg build --build-base /home/student20/Downloads/coursework2/build/vortex_droid_controller_pkg/build install --record /home/student20/Downloads/coursework2/build/vortex_droid_controller_pkg/install.log --single-version-externally-managed install_data
+[4.855s] running egg_info
+[4.856s] creating ../../build/vortex_droid_controller_pkg/vortex_droid_controller_pkg.egg-info
+[4.951s] writing ../../build/vortex_droid_controller_pkg/vortex_droid_controller_pkg.egg-info/PKG-INFO
+[4.952s] writing dependency_links to ../../build/vortex_droid_controller_pkg/vortex_droid_controller_pkg.egg-info/dependency_links.txt
+[4.953s] writing entry points to ../../build/vortex_droid_controller_pkg/vortex_droid_controller_pkg.egg-info/entry_points.txt
+[4.953s] writing requirements to ../../build/vortex_droid_controller_pkg/vortex_droid_controller_pkg.egg-info/requires.txt
+[4.953s] writing top-level names to ../../build/vortex_droid_controller_pkg/vortex_droid_controller_pkg.egg-info/top_level.txt
+[4.954s] writing manifest file '../../build/vortex_droid_controller_pkg/vortex_droid_controller_pkg.egg-info/SOURCES.txt'
+[5.139s] reading manifest file '../../build/vortex_droid_controller_pkg/vortex_droid_controller_pkg.egg-info/SOURCES.txt'
+[5.145s] writing manifest file '../../build/vortex_droid_controller_pkg/vortex_droid_controller_pkg.egg-info/SOURCES.txt'
+[5.146s] running build
+[5.146s] running build_py
+[5.147s] creating /home/student20/Downloads/coursework2/build/vortex_droid_controller_pkg/build
+[5.148s] creating /home/student20/Downloads/coursework2/build/vortex_droid_controller_pkg/build/lib
+[5.149s] creating /home/student20/Downloads/coursework2/build/vortex_droid_controller_pkg/build/lib/vortex_droid_controller_pkg
+[5.149s] copying vortex_droid_controller_pkg/vortex_droid_controller_node.py -> /home/student20/Downloads/coursework2/build/vortex_droid_controller_pkg/build/lib/vortex_droid_controller_pkg
+[5.150s] copying vortex_droid_controller_pkg/__init__.py -> /home/student20/Downloads/coursework2/build/vortex_droid_controller_pkg/build/lib/vortex_droid_controller_pkg
+[5.150s] running install
+[5.172s] running install_lib
+[5.299s] creating /home/student20/Downloads/coursework2/install/vortex_droid_controller_pkg/lib/python3.12/site-packages/vortex_droid_controller_pkg
+[5.299s] copying /home/student20/Downloads/coursework2/build/vortex_droid_controller_pkg/build/lib/vortex_droid_controller_pkg/vortex_droid_controller_node.py -> /home/student20/Downloads/coursework2/install/vortex_droid_controller_pkg/lib/python3.12/site-packages/vortex_droid_controller_pkg
+[5.300s] copying /home/student20/Downloads/coursework2/build/vortex_droid_controller_pkg/build/lib/vortex_droid_controller_pkg/__init__.py -> /home/student20/Downloads/coursework2/install/vortex_droid_controller_pkg/lib/python3.12/site-packages/vortex_droid_controller_pkg
+[5.300s] byte-compiling /home/student20/Downloads/coursework2/install/vortex_droid_controller_pkg/lib/python3.12/site-packages/vortex_droid_controller_pkg/vortex_droid_controller_node.py to vortex_droid_controller_node.cpython-312.pyc
+[5.300s] byte-compiling /home/student20/Downloads/coursework2/install/vortex_droid_controller_pkg/lib/python3.12/site-packages/vortex_droid_controller_pkg/__init__.py to __init__.cpython-312.pyc
+[5.301s] running install_data
+[5.303s] creating /home/student20/Downloads/coursework2/install/vortex_droid_controller_pkg/share/ament_index
+[5.303s] creating /home/student20/Downloads/coursework2/install/vortex_droid_controller_pkg/share/ament_index/resource_index
+[5.304s] creating /home/student20/Downloads/coursework2/install/vortex_droid_controller_pkg/share/ament_index/resource_index/packages
+[5.304s] copying resource/vortex_droid_controller_pkg -> /home/student20/Downloads/coursework2/install/vortex_droid_controller_pkg/share/ament_index/resource_index/packages
+[5.304s] copying package.xml -> /home/student20/Downloads/coursework2/install/vortex_droid_controller_pkg/share/vortex_droid_controller_pkg
+[5.306s] running install_egg_info
+[5.382s] Copying ../../build/vortex_droid_controller_pkg/vortex_droid_controller_pkg.egg-info to /home/student20/Downloads/coursework2/install/vortex_droid_controller_pkg/lib/python3.12/site-packages/vortex_droid_controller_pkg-0.0.0-py3.12.egg-info
+[5.388s] running install_scripts
+[5.950s] Installing vortex_droid_controller_node script to /home/student20/Downloads/coursework2/install/vortex_droid_controller_pkg/lib/vortex_droid_controller_pkg
+[5.952s] writing list of installed files to '/home/student20/Downloads/coursework2/build/vortex_droid_controller_pkg/install.log'
+[6.131s] Invoked command in '/home/student20/Downloads/coursework2/src/vortex_droid_controller_pkg' returned '0': AMENT_PREFIX_PATH=/home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/student20/Downloads/coursework2/build/vortex_droid_controller_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student20/Downloads/coursework2/install/vortex_droid_controller_pkg/lib/python3.12/site-packages:/home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vortex_droid_controller_pkg build --build-base /home/student20/Downloads/coursework2/build/vortex_droid_controller_pkg/build install --record /home/student20/Downloads/coursework2/build/vortex_droid_controller_pkg/install.log --single-version-externally-managed install_data

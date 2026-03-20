@@ -1,0 +1,32 @@
+running egg_info
+creating ../../build/vortex_droid_bridge_pkg/vortex_droid_bridge_pkg.egg-info
+writing ../../build/vortex_droid_bridge_pkg/vortex_droid_bridge_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/vortex_droid_bridge_pkg/vortex_droid_bridge_pkg.egg-info/dependency_links.txt
+writing requirements to ../../build/vortex_droid_bridge_pkg/vortex_droid_bridge_pkg.egg-info/requires.txt
+writing top-level names to ../../build/vortex_droid_bridge_pkg/vortex_droid_bridge_pkg.egg-info/top_level.txt
+writing manifest file '../../build/vortex_droid_bridge_pkg/vortex_droid_bridge_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/vortex_droid_bridge_pkg/vortex_droid_bridge_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/vortex_droid_bridge_pkg/vortex_droid_bridge_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/student20/Downloads/coursework2/build/vortex_droid_bridge_pkg/build
+creating /home/student20/Downloads/coursework2/build/vortex_droid_bridge_pkg/build/lib
+creating /home/student20/Downloads/coursework2/build/vortex_droid_bridge_pkg/build/lib/vortex_droid_bridge_pkg
+copying vortex_droid_bridge_pkg/__init__.py -> /home/student20/Downloads/coursework2/build/vortex_droid_bridge_pkg/build/lib/vortex_droid_bridge_pkg
+running install
+running install_lib
+creating /home/student20/Downloads/coursework2/install/vortex_droid_bridge_pkg/lib/python3.12/site-packages/vortex_droid_bridge_pkg
+copying /home/student20/Downloads/coursework2/build/vortex_droid_bridge_pkg/build/lib/vortex_droid_bridge_pkg/__init__.py -> /home/student20/Downloads/coursework2/install/vortex_droid_bridge_pkg/lib/python3.12/site-packages/vortex_droid_bridge_pkg
+byte-compiling /home/student20/Downloads/coursework2/install/vortex_droid_bridge_pkg/lib/python3.12/site-packages/vortex_droid_bridge_pkg/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/student20/Downloads/coursework2/install/vortex_droid_bridge_pkg/share/ament_index
+creating /home/student20/Downloads/coursework2/install/vortex_droid_bridge_pkg/share/ament_index/resource_index
+creating /home/student20/Downloads/coursework2/install/vortex_droid_bridge_pkg/share/ament_index/resource_index/packages
+copying resource/vortex_droid_bridge_pkg -> /home/student20/Downloads/coursework2/install/vortex_droid_bridge_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/student20/Downloads/coursework2/install/vortex_droid_bridge_pkg/share/vortex_droid_bridge_pkg
+creating /home/student20/Downloads/coursework2/install/vortex_droid_bridge_pkg/share/vortex_droid_bridge_pkg/launch
+copying launch/vortex_droid_bridge_launch.py -> /home/student20/Downloads/coursework2/install/vortex_droid_bridge_pkg/share/vortex_droid_bridge_pkg/launch
+running install_egg_info
+Copying ../../build/vortex_droid_bridge_pkg/vortex_droid_bridge_pkg.egg-info to /home/student20/Downloads/coursework2/install/vortex_droid_bridge_pkg/lib/python3.12/site-packages/vortex_droid_bridge_pkg-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/student20/Downloads/coursework2/build/vortex_droid_bridge_pkg/install.log'

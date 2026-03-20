@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/vortex_droid_controller_pkg/vortex_droid_controller_pkg.egg-info/PKG-INFO
+../../build/vortex_droid_controller_pkg/vortex_droid_controller_pkg.egg-info/SOURCES.txt
+../../build/vortex_droid_controller_pkg/vortex_droid_controller_pkg.egg-info/dependency_links.txt
+../../build/vortex_droid_controller_pkg/vortex_droid_controller_pkg.egg-info/entry_points.txt
+../../build/vortex_droid_controller_pkg/vortex_droid_controller_pkg.egg-info/requires.txt
+../../build/vortex_droid_controller_pkg/vortex_droid_controller_pkg.egg-info/top_level.txt
+../../build/vortex_droid_controller_pkg/vortex_droid_controller_pkg.egg-info/zip-safe
+resource/vortex_droid_controller_pkg
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+vortex_droid_controller_pkg/__init__.py
+vortex_droid_controller_pkg/vortex_droid_controller_node.py

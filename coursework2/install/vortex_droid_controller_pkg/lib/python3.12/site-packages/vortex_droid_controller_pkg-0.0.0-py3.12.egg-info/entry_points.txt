@@ -1,0 +1,2 @@
+[console_scripts]
+vortex_droid_controller_node = vortex_droid_controller_pkg.vortex_droid_controller_node:main

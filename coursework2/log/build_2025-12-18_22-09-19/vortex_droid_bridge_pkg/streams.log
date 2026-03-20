@@ -1,0 +1,20 @@
+[4.227s] Invoking command in '/home/student20/Downloads/coursework2/src/vortex_droid_bridge_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student20/Downloads/coursework2/build/vortex_droid_bridge_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student20/Downloads/coursework2/install/vortex_droid_bridge_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vortex_droid_bridge_pkg build --build-base /home/student20/Downloads/coursework2/build/vortex_droid_bridge_pkg/build install --record /home/student20/Downloads/coursework2/build/vortex_droid_bridge_pkg/install.log --single-version-externally-managed install_data
+[5.225s] running egg_info
+[5.278s] writing ../../build/vortex_droid_bridge_pkg/vortex_droid_bridge_pkg.egg-info/PKG-INFO
+[5.279s] writing dependency_links to ../../build/vortex_droid_bridge_pkg/vortex_droid_bridge_pkg.egg-info/dependency_links.txt
+[5.280s] writing requirements to ../../build/vortex_droid_bridge_pkg/vortex_droid_bridge_pkg.egg-info/requires.txt
+[5.285s] writing top-level names to ../../build/vortex_droid_bridge_pkg/vortex_droid_bridge_pkg.egg-info/top_level.txt
+[5.403s] reading manifest file '../../build/vortex_droid_bridge_pkg/vortex_droid_bridge_pkg.egg-info/SOURCES.txt'
+[5.407s] writing manifest file '../../build/vortex_droid_bridge_pkg/vortex_droid_bridge_pkg.egg-info/SOURCES.txt'
+[5.408s] running build
+[5.408s] running build_py
+[5.408s] running install
+[5.428s] running install_lib
+[5.506s] running install_data
+[5.506s] copying package.xml -> /home/student20/Downloads/coursework2/install/vortex_droid_bridge_pkg/share/vortex_droid_bridge_pkg
+[5.508s] running install_egg_info
+[5.591s] removing '/home/student20/Downloads/coursework2/install/vortex_droid_bridge_pkg/lib/python3.12/site-packages/vortex_droid_bridge_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[5.597s] Copying ../../build/vortex_droid_bridge_pkg/vortex_droid_bridge_pkg.egg-info to /home/student20/Downloads/coursework2/install/vortex_droid_bridge_pkg/lib/python3.12/site-packages/vortex_droid_bridge_pkg-0.0.0-py3.12.egg-info
+[5.598s] running install_scripts
+[6.030s] writing list of installed files to '/home/student20/Downloads/coursework2/build/vortex_droid_bridge_pkg/install.log'
+[6.153s] Invoked command in '/home/student20/Downloads/coursework2/src/vortex_droid_bridge_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/student20/Downloads/coursework2/build/vortex_droid_bridge_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student20/Downloads/coursework2/install/vortex_droid_bridge_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vortex_droid_bridge_pkg build --build-base /home/student20/Downloads/coursework2/build/vortex_droid_bridge_pkg/build install --record /home/student20/Downloads/coursework2/build/vortex_droid_bridge_pkg/install.log --single-version-externally-managed install_data

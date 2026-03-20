@@ -1,0 +1,4 @@
+source;share/vortex_droid_navigation_pkg/hook/pythonpath.dsv
+source;share/vortex_droid_navigation_pkg/hook/pythonpath.sh
+source;share/vortex_droid_navigation_pkg/hook/ament_prefix_path.dsv
+source;share/vortex_droid_navigation_pkg/hook/ament_prefix_path.sh

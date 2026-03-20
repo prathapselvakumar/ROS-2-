@@ -1,0 +1,954 @@
+[0.000000] (-) TimerEvent: {}
+[0.001413] (sfr_coursework2_interface_package) JobQueued: {'identifier': 'sfr_coursework2_interface_package', 'dependencies': OrderedDict()}
+[0.002892] (vortex_droid_bridge_pkg) JobQueued: {'identifier': 'vortex_droid_bridge_pkg', 'dependencies': OrderedDict()}
+[0.003381] (vortex_droid_navigation_pkg) JobQueued: {'identifier': 'vortex_droid_navigation_pkg', 'dependencies': OrderedDict()}
+[0.003469] (vortex_droid_controller_pkg) JobQueued: {'identifier': 'vortex_droid_controller_pkg', 'dependencies': OrderedDict({'sfr_coursework2_interface_package': '/home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package'})}
+[0.003539] (sfr_coursework2_interface_package) JobStarted: {'identifier': 'sfr_coursework2_interface_package'}
+[0.034622] (vortex_droid_bridge_pkg) JobStarted: {'identifier': 'vortex_droid_bridge_pkg'}
+[0.055036] (vortex_droid_navigation_pkg) JobStarted: {'identifier': 'vortex_droid_navigation_pkg'}
+[0.076639] (sfr_coursework2_interface_package) JobProgress: {'identifier': 'sfr_coursework2_interface_package', 'progress': 'cmake'}
+[0.078507] (sfr_coursework2_interface_package) Command: {'cmd': ['/usr/bin/cmake', '/home/student20/Downloads/coursework2/src/sfr_coursework2_interface_package', '-DCMAKE_INSTALL_PREFIX=/home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package'], 'cwd': '/home/student20/Downloads/coursework2/build/sfr_coursework2_interface_package', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'student20', 'LC_TIME': 'en_GB.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/antigravity/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'ANTIGRAVITY_CLI_ALIAS': 'agy', 'HOME': '/home/student20', 'CHROME_DESKTOP': 'antigravity.desktop', 'TERM_PROGRAM_VERSION': '1.104.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/antigravity.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'cat', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/antigravity/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_GB.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/antigravity/antigravity', 'MANAGERPID': '2158', 'SYSTEMD_EXEC_PID': '2485', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'COLORTERM': 'truecolor', 'ANTIGRAVITY_AGENT': '1', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '97447', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/student20/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'student20', 'JOURNAL_STREAM': '9:22764', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1001.slice/user@1001.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'student20', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/student20/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/student20/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/e-24ul523g78p:@/tmp/.ICE-unix/2420,unix/e-24ul523g78p:/tmp/.ICE-unix/2420', 'INVOCATION_ID': '70ab320adb0f4a10bdc1e6bdc9a5ae01', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_GB.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1001', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'en_GB.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1001/.mutter-Xwaylandauth.9IG4H3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SBX_CHROME_API_RQ': '1', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1001/vscode-git-cd85dcbfb7.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1001/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'en_GB.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_GB.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_GB.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/student20/Downloads/coursework2/build/sfr_coursework2_interface_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_GB.UTF-8', 'LC_PAPER': 'en_GB.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099052] (-) TimerEvent: {}
+[0.199718] (-) TimerEvent: {}
+[0.300329] (-) TimerEvent: {}
+[0.401381] (-) TimerEvent: {}
+[0.503250] (-) TimerEvent: {}
+[0.605013] (-) TimerEvent: {}
+[0.706005] (-) TimerEvent: {}
+[0.807125] (-) TimerEvent: {}
+[0.907909] (-) TimerEvent: {}
+[1.009377] (-) TimerEvent: {}
+[1.027627] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[1.030472] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.040211] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.109642] (-) TimerEvent: {}
+[1.217535] (-) TimerEvent: {}
+[1.322091] (-) TimerEvent: {}
+[1.398911] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.423211] (-) TimerEvent: {}
+[1.453844] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.457899] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.461285] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.523402] (-) TimerEvent: {}
+[1.529821] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.623578] (-) TimerEvent: {}
+[1.725141] (-) TimerEvent: {}
+[1.826029] (-) TimerEvent: {}
+[1.926774] (-) TimerEvent: {}
+[1.979762] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.025352] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.026805] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.027250] (-) TimerEvent: {}
+[2.028010] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.077135] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[2.128298] (-) TimerEvent: {}
+[2.230905] (-) TimerEvent: {}
+[2.332273] (-) TimerEvent: {}
+[2.433373] (-) TimerEvent: {}
+[2.534524] (-) TimerEvent: {}
+[2.635547] (-) TimerEvent: {}
+[2.737591] (-) TimerEvent: {}
+[2.839024] (-) TimerEvent: {}
+[2.847172] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.939992] (-) TimerEvent: {}
+[3.040798] (-) TimerEvent: {}
+[3.141550] (-) TimerEvent: {}
+[3.242171] (-) TimerEvent: {}
+[3.342922] (-) TimerEvent: {}
+[3.443933] (-) TimerEvent: {}
+[3.499927] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[3.544153] (-) TimerEvent: {}
+[3.644988] (-) TimerEvent: {}
+[3.745540] (-) TimerEvent: {}
+[3.785949] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[3.845710] (-) TimerEvent: {}
+[3.870766] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[3.945957] (-) TimerEvent: {}
+[3.979500] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.046138] (-) TimerEvent: {}
+[4.078847] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.146359] (-) TimerEvent: {}
+[4.247386] (-) TimerEvent: {}
+[4.296694] (vortex_droid_navigation_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/vortex_droid_navigation_pkg', 'build', '--build-base', '/home/student20/Downloads/coursework2/build/vortex_droid_navigation_pkg/build', 'install', '--record', '/home/student20/Downloads/coursework2/build/vortex_droid_navigation_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/student20/Downloads/coursework2/src/vortex_droid_navigation_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'student20', 'LC_TIME': 'en_GB.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/antigravity/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'ANTIGRAVITY_CLI_ALIAS': 'agy', 'HOME': '/home/student20', 'CHROME_DESKTOP': 'antigravity.desktop', 'TERM_PROGRAM_VERSION': '1.104.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/antigravity.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'cat', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/antigravity/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_GB.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/antigravity/antigravity', 'MANAGERPID': '2158', 'SYSTEMD_EXEC_PID': '2485', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'COLORTERM': 'truecolor', 'ANTIGRAVITY_AGENT': '1', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '97447', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/student20/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'student20', 'JOURNAL_STREAM': '9:22764', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1001.slice/user@1001.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'student20', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/student20/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/student20/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/e-24ul523g78p:@/tmp/.ICE-unix/2420,unix/e-24ul523g78p:/tmp/.ICE-unix/2420', 'INVOCATION_ID': '70ab320adb0f4a10bdc1e6bdc9a5ae01', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_GB.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1001', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'en_GB.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1001/.mutter-Xwaylandauth.9IG4H3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SBX_CHROME_API_RQ': '1', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1001/vscode-git-cd85dcbfb7.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1001/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'en_GB.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_GB.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_GB.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/student20/Downloads/coursework2/build/vortex_droid_navigation_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/student20/Downloads/coursework2/build/vortex_droid_navigation_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student20/Downloads/coursework2/install/vortex_droid_navigation_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_GB.UTF-8', 'LC_PAPER': 'en_GB.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[4.347600] (-) TimerEvent: {}
+[4.448766] (-) TimerEvent: {}
+[4.466254] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[4.531852] (vortex_droid_bridge_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/vortex_droid_bridge_pkg', 'build', '--build-base', '/home/student20/Downloads/coursework2/build/vortex_droid_bridge_pkg/build', 'install', '--record', '/home/student20/Downloads/coursework2/build/vortex_droid_bridge_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/student20/Downloads/coursework2/src/vortex_droid_bridge_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'student20', 'LC_TIME': 'en_GB.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/antigravity/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'ANTIGRAVITY_CLI_ALIAS': 'agy', 'HOME': '/home/student20', 'CHROME_DESKTOP': 'antigravity.desktop', 'TERM_PROGRAM_VERSION': '1.104.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/antigravity.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'cat', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/antigravity/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_GB.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/antigravity/antigravity', 'MANAGERPID': '2158', 'SYSTEMD_EXEC_PID': '2485', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'COLORTERM': 'truecolor', 'ANTIGRAVITY_AGENT': '1', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '97447', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/student20/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'student20', 'JOURNAL_STREAM': '9:22764', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1001.slice/user@1001.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'student20', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/student20/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/student20/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/e-24ul523g78p:@/tmp/.ICE-unix/2420,unix/e-24ul523g78p:/tmp/.ICE-unix/2420', 'INVOCATION_ID': '70ab320adb0f4a10bdc1e6bdc9a5ae01', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_GB.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1001', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'en_GB.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1001/.mutter-Xwaylandauth.9IG4H3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SBX_CHROME_API_RQ': '1', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1001/vscode-git-cd85dcbfb7.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1001/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'en_GB.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_GB.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_GB.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/student20/Downloads/coursework2/build/vortex_droid_bridge_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/student20/Downloads/coursework2/build/vortex_droid_bridge_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student20/Downloads/coursework2/install/vortex_droid_bridge_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_GB.UTF-8', 'LC_PAPER': 'en_GB.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[4.549104] (-) TimerEvent: {}
+[4.556938] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[4.649251] (-) TimerEvent: {}
+[4.749798] (-) TimerEvent: {}
+[4.850794] (-) TimerEvent: {}
+[4.951825] (-) TimerEvent: {}
+[5.052477] (-) TimerEvent: {}
+[5.153912] (-) TimerEvent: {}
+[5.254724] (-) TimerEvent: {}
+[5.355250] (vortex_droid_navigation_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[5.356454] (-) TimerEvent: {}
+[5.358003] (vortex_droid_navigation_pkg) StdoutLine: {'line': b'creating ../../build/vortex_droid_navigation_pkg/vortex_droid_navigation_pkg.egg-info\n'}
+[5.436364] (vortex_droid_navigation_pkg) StdoutLine: {'line': b'writing ../../build/vortex_droid_navigation_pkg/vortex_droid_navigation_pkg.egg-info/PKG-INFO\n'}
+[5.437953] (vortex_droid_navigation_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/vortex_droid_navigation_pkg/vortex_droid_navigation_pkg.egg-info/dependency_links.txt\n'}
+[5.438777] (vortex_droid_navigation_pkg) StdoutLine: {'line': b'writing entry points to ../../build/vortex_droid_navigation_pkg/vortex_droid_navigation_pkg.egg-info/entry_points.txt\n'}
+[5.439716] (vortex_droid_navigation_pkg) StdoutLine: {'line': b'writing requirements to ../../build/vortex_droid_navigation_pkg/vortex_droid_navigation_pkg.egg-info/requires.txt\n'}
+[5.441553] (vortex_droid_navigation_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/vortex_droid_navigation_pkg/vortex_droid_navigation_pkg.egg-info/top_level.txt\n'}
+[5.442274] (vortex_droid_navigation_pkg) StdoutLine: {'line': b"writing manifest file '../../build/vortex_droid_navigation_pkg/vortex_droid_navigation_pkg.egg-info/SOURCES.txt'\n"}
+[5.456737] (-) TimerEvent: {}
+[5.557558] (-) TimerEvent: {}
+[5.586990] (vortex_droid_navigation_pkg) StdoutLine: {'line': b"reading manifest file '../../build/vortex_droid_navigation_pkg/vortex_droid_navigation_pkg.egg-info/SOURCES.txt'\n"}
+[5.589092] (vortex_droid_navigation_pkg) StdoutLine: {'line': b"writing manifest file '../../build/vortex_droid_navigation_pkg/vortex_droid_navigation_pkg.egg-info/SOURCES.txt'\n"}
+[5.589700] (vortex_droid_navigation_pkg) StdoutLine: {'line': b'running build\n'}
+[5.590196] (vortex_droid_navigation_pkg) StdoutLine: {'line': b'running build_py\n'}
+[5.590556] (vortex_droid_navigation_pkg) StdoutLine: {'line': b'creating /home/student20/Downloads/coursework2/build/vortex_droid_navigation_pkg/build\n'}
+[5.590838] (vortex_droid_navigation_pkg) StdoutLine: {'line': b'creating /home/student20/Downloads/coursework2/build/vortex_droid_navigation_pkg/build/lib\n'}
+[5.591089] (vortex_droid_navigation_pkg) StdoutLine: {'line': b'creating /home/student20/Downloads/coursework2/build/vortex_droid_navigation_pkg/build/lib/vortex_droid_navigation_pkg\n'}
+[5.591409] (vortex_droid_navigation_pkg) StdoutLine: {'line': b'copying vortex_droid_navigation_pkg/vortex_droid_navigation_node.py -> /home/student20/Downloads/coursework2/build/vortex_droid_navigation_pkg/build/lib/vortex_droid_navigation_pkg\n'}
+[5.591737] (vortex_droid_navigation_pkg) StdoutLine: {'line': b'copying vortex_droid_navigation_pkg/__init__.py -> /home/student20/Downloads/coursework2/build/vortex_droid_navigation_pkg/build/lib/vortex_droid_navigation_pkg\n'}
+[5.592189] (vortex_droid_navigation_pkg) StdoutLine: {'line': b'running install\n'}
+[5.614807] (vortex_droid_navigation_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[5.630399] (vortex_droid_bridge_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[5.632408] (vortex_droid_bridge_pkg) StdoutLine: {'line': b'creating ../../build/vortex_droid_bridge_pkg/vortex_droid_bridge_pkg.egg-info\n'}
+[5.657770] (-) TimerEvent: {}
+[5.684876] (vortex_droid_navigation_pkg) StdoutLine: {'line': b'creating /home/student20/Downloads/coursework2/install/vortex_droid_navigation_pkg/lib/python3.12/site-packages/vortex_droid_navigation_pkg\n'}
+[5.685442] (vortex_droid_navigation_pkg) StdoutLine: {'line': b'copying /home/student20/Downloads/coursework2/build/vortex_droid_navigation_pkg/build/lib/vortex_droid_navigation_pkg/vortex_droid_navigation_node.py -> /home/student20/Downloads/coursework2/install/vortex_droid_navigation_pkg/lib/python3.12/site-packages/vortex_droid_navigation_pkg\n'}
+[5.685774] (vortex_droid_navigation_pkg) StdoutLine: {'line': b'copying /home/student20/Downloads/coursework2/build/vortex_droid_navigation_pkg/build/lib/vortex_droid_navigation_pkg/__init__.py -> /home/student20/Downloads/coursework2/install/vortex_droid_navigation_pkg/lib/python3.12/site-packages/vortex_droid_navigation_pkg\n'}
+[5.687263] (vortex_droid_navigation_pkg) StdoutLine: {'line': b'byte-compiling /home/student20/Downloads/coursework2/install/vortex_droid_navigation_pkg/lib/python3.12/site-packages/vortex_droid_navigation_pkg/vortex_droid_navigation_node.py to vortex_droid_navigation_node.cpython-312.pyc\n'}
+[5.691268] (vortex_droid_navigation_pkg) StdoutLine: {'line': b'byte-compiling /home/student20/Downloads/coursework2/install/vortex_droid_navigation_pkg/lib/python3.12/site-packages/vortex_droid_navigation_pkg/__init__.py to __init__.cpython-312.pyc\n'}
+[5.691781] (vortex_droid_navigation_pkg) StdoutLine: {'line': b'running install_data\n'}
+[5.692065] (vortex_droid_navigation_pkg) StdoutLine: {'line': b'creating /home/student20/Downloads/coursework2/install/vortex_droid_navigation_pkg/share/ament_index\n'}
+[5.692258] (vortex_droid_navigation_pkg) StdoutLine: {'line': b'creating /home/student20/Downloads/coursework2/install/vortex_droid_navigation_pkg/share/ament_index/resource_index\n'}
+[5.692583] (vortex_droid_navigation_pkg) StdoutLine: {'line': b'creating /home/student20/Downloads/coursework2/install/vortex_droid_navigation_pkg/share/ament_index/resource_index/packages\n'}
+[5.693270] (vortex_droid_navigation_pkg) StdoutLine: {'line': b'copying resource/vortex_droid_navigation_pkg -> /home/student20/Downloads/coursework2/install/vortex_droid_navigation_pkg/share/ament_index/resource_index/packages\n'}
+[5.693663] (vortex_droid_navigation_pkg) StdoutLine: {'line': b'copying package.xml -> /home/student20/Downloads/coursework2/install/vortex_droid_navigation_pkg/share/vortex_droid_navigation_pkg\n'}
+[5.693917] (vortex_droid_navigation_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.699022] (vortex_droid_bridge_pkg) StdoutLine: {'line': b'writing ../../build/vortex_droid_bridge_pkg/vortex_droid_bridge_pkg.egg-info/PKG-INFO\n'}
+[5.699752] (vortex_droid_bridge_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/vortex_droid_bridge_pkg/vortex_droid_bridge_pkg.egg-info/dependency_links.txt\n'}
+[5.700366] (vortex_droid_bridge_pkg) StdoutLine: {'line': b'writing requirements to ../../build/vortex_droid_bridge_pkg/vortex_droid_bridge_pkg.egg-info/requires.txt\n'}
+[5.700990] (vortex_droid_bridge_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/vortex_droid_bridge_pkg/vortex_droid_bridge_pkg.egg-info/top_level.txt\n'}
+[5.702059] (vortex_droid_bridge_pkg) StdoutLine: {'line': b"writing manifest file '../../build/vortex_droid_bridge_pkg/vortex_droid_bridge_pkg.egg-info/SOURCES.txt'\n"}
+[5.757970] (-) TimerEvent: {}
+[5.772244] (vortex_droid_navigation_pkg) StdoutLine: {'line': b'Copying ../../build/vortex_droid_navigation_pkg/vortex_droid_navigation_pkg.egg-info to /home/student20/Downloads/coursework2/install/vortex_droid_navigation_pkg/lib/python3.12/site-packages/vortex_droid_navigation_pkg-0.0.0-py3.12.egg-info\n'}
+[5.776744] (vortex_droid_navigation_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[5.851397] (vortex_droid_bridge_pkg) StdoutLine: {'line': b"reading manifest file '../../build/vortex_droid_bridge_pkg/vortex_droid_bridge_pkg.egg-info/SOURCES.txt'\n"}
+[5.854894] (vortex_droid_bridge_pkg) StdoutLine: {'line': b"writing manifest file '../../build/vortex_droid_bridge_pkg/vortex_droid_bridge_pkg.egg-info/SOURCES.txt'\n"}
+[5.855659] (vortex_droid_bridge_pkg) StdoutLine: {'line': b'running build\n'}
+[5.856089] (vortex_droid_bridge_pkg) StdoutLine: {'line': b'running build_py\n'}
+[5.857360] (vortex_droid_bridge_pkg) StdoutLine: {'line': b'creating /home/student20/Downloads/coursework2/build/vortex_droid_bridge_pkg/build\n'}
+[5.857731] (vortex_droid_bridge_pkg) StdoutLine: {'line': b'creating /home/student20/Downloads/coursework2/build/vortex_droid_bridge_pkg/build/lib\n'}
+[5.858019] (-) TimerEvent: {}
+[5.858356] (vortex_droid_bridge_pkg) StdoutLine: {'line': b'creating /home/student20/Downloads/coursework2/build/vortex_droid_bridge_pkg/build/lib/vortex_droid_bridge_pkg\n'}
+[5.858677] (vortex_droid_bridge_pkg) StdoutLine: {'line': b'copying vortex_droid_bridge_pkg/__init__.py -> /home/student20/Downloads/coursework2/build/vortex_droid_bridge_pkg/build/lib/vortex_droid_bridge_pkg\n'}
+[5.859267] (vortex_droid_bridge_pkg) StdoutLine: {'line': b'running install\n'}
+[5.883017] (vortex_droid_bridge_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[5.958217] (-) TimerEvent: {}
+[5.961498] (vortex_droid_bridge_pkg) StdoutLine: {'line': b'creating /home/student20/Downloads/coursework2/install/vortex_droid_bridge_pkg/lib/python3.12/site-packages/vortex_droid_bridge_pkg\n'}
+[5.962256] (vortex_droid_bridge_pkg) StdoutLine: {'line': b'copying /home/student20/Downloads/coursework2/build/vortex_droid_bridge_pkg/build/lib/vortex_droid_bridge_pkg/__init__.py -> /home/student20/Downloads/coursework2/install/vortex_droid_bridge_pkg/lib/python3.12/site-packages/vortex_droid_bridge_pkg\n'}
+[5.964059] (vortex_droid_bridge_pkg) StdoutLine: {'line': b'byte-compiling /home/student20/Downloads/coursework2/install/vortex_droid_bridge_pkg/lib/python3.12/site-packages/vortex_droid_bridge_pkg/__init__.py to __init__.cpython-312.pyc\n'}
+[5.964893] (vortex_droid_bridge_pkg) StdoutLine: {'line': b'running install_data\n'}
+[5.966020] (vortex_droid_bridge_pkg) StdoutLine: {'line': b'creating /home/student20/Downloads/coursework2/install/vortex_droid_bridge_pkg/share/ament_index\n'}
+[5.966421] (vortex_droid_bridge_pkg) StdoutLine: {'line': b'creating /home/student20/Downloads/coursework2/install/vortex_droid_bridge_pkg/share/ament_index/resource_index\n'}
+[5.966758] (vortex_droid_bridge_pkg) StdoutLine: {'line': b'creating /home/student20/Downloads/coursework2/install/vortex_droid_bridge_pkg/share/ament_index/resource_index/packages\n'}
+[5.967059] (vortex_droid_bridge_pkg) StdoutLine: {'line': b'copying resource/vortex_droid_bridge_pkg -> /home/student20/Downloads/coursework2/install/vortex_droid_bridge_pkg/share/ament_index/resource_index/packages\n'}
+[5.967617] (vortex_droid_bridge_pkg) StdoutLine: {'line': b'copying package.xml -> /home/student20/Downloads/coursework2/install/vortex_droid_bridge_pkg/share/vortex_droid_bridge_pkg\n'}
+[5.968232] (vortex_droid_bridge_pkg) StdoutLine: {'line': b'creating /home/student20/Downloads/coursework2/install/vortex_droid_bridge_pkg/share/vortex_droid_bridge_pkg/launch\n'}
+[5.968653] (vortex_droid_bridge_pkg) StdoutLine: {'line': b'copying launch/vortex_droid_bridge_launch.py -> /home/student20/Downloads/coursework2/install/vortex_droid_bridge_pkg/share/vortex_droid_bridge_pkg/launch\n'}
+[5.969273] (vortex_droid_bridge_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.053374] (vortex_droid_bridge_pkg) StdoutLine: {'line': b'Copying ../../build/vortex_droid_bridge_pkg/vortex_droid_bridge_pkg.egg-info to /home/student20/Downloads/coursework2/install/vortex_droid_bridge_pkg/lib/python3.12/site-packages/vortex_droid_bridge_pkg-0.0.0-py3.12.egg-info\n'}
+[6.056854] (vortex_droid_bridge_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[6.058364] (-) TimerEvent: {}
+[6.158978] (-) TimerEvent: {}
+[6.260432] (-) TimerEvent: {}
+[6.279397] (vortex_droid_navigation_pkg) StdoutLine: {'line': b'Installing vortex_droid_navigation_node script to /home/student20/Downloads/coursework2/install/vortex_droid_navigation_pkg/lib/vortex_droid_navigation_pkg\n'}
+[6.280423] (vortex_droid_navigation_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/student20/Downloads/coursework2/build/vortex_droid_navigation_pkg/install.log'\n"}
+[6.360723] (-) TimerEvent: {}
+[6.434544] (vortex_droid_navigation_pkg) CommandEnded: {'returncode': 0}
+[6.461398] (-) TimerEvent: {}
+[6.466115] (vortex_droid_navigation_pkg) JobEnded: {'identifier': 'vortex_droid_navigation_pkg', 'rc': 0}
+[6.561528] (-) TimerEvent: {}
+[6.583592] (vortex_droid_bridge_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/student20/Downloads/coursework2/build/vortex_droid_bridge_pkg/install.log'\n"}
+[6.661718] (-) TimerEvent: {}
+[6.731137] (vortex_droid_bridge_pkg) CommandEnded: {'returncode': 0}
+[6.752514] (vortex_droid_bridge_pkg) JobEnded: {'identifier': 'vortex_droid_bridge_pkg', 'rc': 0}
+[6.761992] (-) TimerEvent: {}
+[6.862645] (-) TimerEvent: {}
+[6.963294] (-) TimerEvent: {}
+[7.064024] (-) TimerEvent: {}
+[7.164814] (-) TimerEvent: {}
+[7.265614] (-) TimerEvent: {}
+[7.367011] (-) TimerEvent: {}
+[7.463308] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[7.467119] (-) TimerEvent: {}
+[7.567582] (-) TimerEvent: {}
+[7.668092] (-) TimerEvent: {}
+[7.768606] (-) TimerEvent: {}
+[7.869084] (-) TimerEvent: {}
+[7.969720] (-) TimerEvent: {}
+[8.070671] (-) TimerEvent: {}
+[8.171388] (-) TimerEvent: {}
+[8.272087] (-) TimerEvent: {}
+[8.373014] (-) TimerEvent: {}
+[8.474185] (-) TimerEvent: {}
+[8.574716] (-) TimerEvent: {}
+[8.675310] (-) TimerEvent: {}
+[8.775833] (-) TimerEvent: {}
+[8.876640] (-) TimerEvent: {}
+[8.977285] (-) TimerEvent: {}
+[9.077945] (-) TimerEvent: {}
+[9.178603] (-) TimerEvent: {}
+[9.279378] (-) TimerEvent: {}
+[9.380242] (-) TimerEvent: {}
+[9.480965] (-) TimerEvent: {}
+[9.581748] (-) TimerEvent: {}
+[9.683628] (-) TimerEvent: {}
+[9.784270] (-) TimerEvent: {}
+[9.884816] (-) TimerEvent: {}
+[9.985367] (-) TimerEvent: {}
+[10.085919] (-) TimerEvent: {}
+[10.186469] (-) TimerEvent: {}
+[10.287537] (-) TimerEvent: {}
+[10.388380] (-) TimerEvent: {}
+[10.489039] (-) TimerEvent: {}
+[10.589911] (-) TimerEvent: {}
+[10.678519] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.690099] (-) TimerEvent: {}
+[10.790959] (-) TimerEvent: {}
+[10.891641] (-) TimerEvent: {}
+[10.992256] (-) TimerEvent: {}
+[11.092686] (-) TimerEvent: {}
+[11.193452] (-) TimerEvent: {}
+[11.294220] (-) TimerEvent: {}
+[11.394830] (-) TimerEvent: {}
+[11.495603] (-) TimerEvent: {}
+[11.596459] (-) TimerEvent: {}
+[11.697047] (-) TimerEvent: {}
+[11.797683] (-) TimerEvent: {}
+[11.898314] (-) TimerEvent: {}
+[11.939719] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.957058] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[11.998557] (-) TimerEvent: {}
+[12.099465] (-) TimerEvent: {}
+[12.200052] (-) TimerEvent: {}
+[12.322064] (-) TimerEvent: {}
+[12.423173] (-) TimerEvent: {}
+[12.470006] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[12.523385] (-) TimerEvent: {}
+[12.627376] (-) TimerEvent: {}
+[12.728056] (-) TimerEvent: {}
+[12.829036] (-) TimerEvent: {}
+[12.929729] (-) TimerEvent: {}
+[13.030416] (-) TimerEvent: {}
+[13.131097] (-) TimerEvent: {}
+[13.231702] (-) TimerEvent: {}
+[13.332361] (-) TimerEvent: {}
+[13.432886] (-) TimerEvent: {}
+[13.533441] (-) TimerEvent: {}
+[13.634156] (-) TimerEvent: {}
+[13.734938] (-) TimerEvent: {}
+[13.835956] (-) TimerEvent: {}
+[13.936643] (-) TimerEvent: {}
+[14.037199] (-) TimerEvent: {}
+[14.137702] (-) TimerEvent: {}
+[14.238219] (-) TimerEvent: {}
+[14.246801] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[14.338711] (-) TimerEvent: {}
+[14.439829] (-) TimerEvent: {}
+[14.492643] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[14.539972] (-) TimerEvent: {}
+[14.640715] (-) TimerEvent: {}
+[14.652141] (sfr_coursework2_interface_package) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[14.659710] (sfr_coursework2_interface_package) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[14.673963] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Configuring done (14.6s)\n'}
+[14.740932] (-) TimerEvent: {}
+[14.834769] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[14.841069] (-) TimerEvent: {}
+[14.883753] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Build files have been written to: /home/student20/Downloads/coursework2/build/sfr_coursework2_interface_package\n'}
+[14.925621] (sfr_coursework2_interface_package) CommandEnded: {'returncode': 0}
+[14.927654] (sfr_coursework2_interface_package) JobProgress: {'identifier': 'sfr_coursework2_interface_package', 'progress': 'build'}
+[14.930503] (sfr_coursework2_interface_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/student20/Downloads/coursework2/build/sfr_coursework2_interface_package', '--', '-j12', '-l12'], 'cwd': '/home/student20/Downloads/coursework2/build/sfr_coursework2_interface_package', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'student20', 'LC_TIME': 'en_GB.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/antigravity/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'ANTIGRAVITY_CLI_ALIAS': 'agy', 'HOME': '/home/student20', 'CHROME_DESKTOP': 'antigravity.desktop', 'TERM_PROGRAM_VERSION': '1.104.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/antigravity.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'cat', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/antigravity/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_GB.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/antigravity/antigravity', 'MANAGERPID': '2158', 'SYSTEMD_EXEC_PID': '2485', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'COLORTERM': 'truecolor', 'ANTIGRAVITY_AGENT': '1', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '97447', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/student20/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'student20', 'JOURNAL_STREAM': '9:22764', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1001.slice/user@1001.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'student20', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/student20/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/student20/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/e-24ul523g78p:@/tmp/.ICE-unix/2420,unix/e-24ul523g78p:/tmp/.ICE-unix/2420', 'INVOCATION_ID': '70ab320adb0f4a10bdc1e6bdc9a5ae01', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_GB.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1001', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'en_GB.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1001/.mutter-Xwaylandauth.9IG4H3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SBX_CHROME_API_RQ': '1', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1001/vscode-git-cd85dcbfb7.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1001/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'en_GB.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_GB.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_GB.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/student20/Downloads/coursework2/build/sfr_coursework2_interface_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_GB.UTF-8', 'LC_PAPER': 'en_GB.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[14.941281] (-) TimerEvent: {}
+[15.041920] (-) TimerEvent: {}
+[15.127455] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[15.142047] (-) TimerEvent: {}
+[15.242595] (-) TimerEvent: {}
+[15.343084] (-) TimerEvent: {}
+[15.443664] (-) TimerEvent: {}
+[15.545289] (-) TimerEvent: {}
+[15.648080] (-) TimerEvent: {}
+[15.748969] (-) TimerEvent: {}
+[15.849729] (-) TimerEvent: {}
+[15.870750] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[  2%] Built target sfr_coursework2_interface_package__rosidl_generator_type_description\n'}
+[15.949923] (-) TimerEvent: {}
+[15.985130] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_sfr_coursework2_interface_package\n'}
+[16.032269] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[16.050229] (-) TimerEvent: {}
+[16.150990] (-) TimerEvent: {}
+[16.251932] (-) TimerEvent: {}
+[16.352754] (-) TimerEvent: {}
+[16.456463] (-) TimerEvent: {}
+[16.557102] (-) TimerEvent: {}
+[16.657726] (-) TimerEvent: {}
+[16.758564] (-) TimerEvent: {}
+[16.859119] (-) TimerEvent: {}
+[16.959711] (-) TimerEvent: {}
+[17.060623] (-) TimerEvent: {}
+[17.161293] (-) TimerEvent: {}
+[17.261833] (-) TimerEvent: {}
+[17.362521] (-) TimerEvent: {}
+[17.463188] (-) TimerEvent: {}
+[17.563724] (-) TimerEvent: {}
+[17.664735] (-) TimerEvent: {}
+[17.749963] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/sfr_coursework2_interface_package__rosidl_generator_c.dir/rosidl_generator_c/sfr_coursework2_interface_package/action/detail/drone_control__description.c.o\x1b[0m\n'}
+[17.764999] (-) TimerEvent: {}
+[17.865897] (-) TimerEvent: {}
+[17.966507] (-) TimerEvent: {}
+[18.067218] (-) TimerEvent: {}
+[18.163721] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/sfr_coursework2_interface_package__rosidl_generator_c.dir/rosidl_generator_c/sfr_coursework2_interface_package/action/detail/drone_control__type_support.c.o\x1b[0m\n'}
+[18.167325] (-) TimerEvent: {}
+[18.268028] (-) TimerEvent: {}
+[18.329701] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/sfr_coursework2_interface_package__rosidl_generator_c.dir/rosidl_generator_c/sfr_coursework2_interface_package/action/detail/drone_control__functions.c.o\x1b[0m\n'}
+[18.368173] (-) TimerEvent: {}
+[18.468751] (-) TimerEvent: {}
+[18.569916] (-) TimerEvent: {}
+[18.670718] (-) TimerEvent: {}
+[18.771613] (-) TimerEvent: {}
+[18.872560] (-) TimerEvent: {}
+[18.956134] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking C shared library libsfr_coursework2_interface_package__rosidl_generator_c.so\x1b[0m\n'}
+[18.972753] (-) TimerEvent: {}
+[19.073462] (-) TimerEvent: {}
+[19.090740] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 17%] Built target sfr_coursework2_interface_package__rosidl_generator_c\n'}
+[19.173591] (-) TimerEvent: {}
+[19.274020] (-) TimerEvent: {}
+[19.374711] (-) TimerEvent: {}
+[19.475675] (-) TimerEvent: {}
+[19.576429] (-) TimerEvent: {}
+[19.676974] (-) TimerEvent: {}
+[19.777561] (-) TimerEvent: {}
+[19.878267] (-) TimerEvent: {}
+[19.889604] (sfr_coursework2_interface_package) StdoutLine: {'line': b'running egg_info\n'}
+[19.892235] (sfr_coursework2_interface_package) StdoutLine: {'line': b'creating sfr_coursework2_interface_package.egg-info\n'}
+[19.973180] (sfr_coursework2_interface_package) StdoutLine: {'line': b'writing sfr_coursework2_interface_package.egg-info/PKG-INFO\n'}
+[19.974151] (sfr_coursework2_interface_package) StdoutLine: {'line': b'writing dependency_links to sfr_coursework2_interface_package.egg-info/dependency_links.txt\n'}
+[19.974667] (sfr_coursework2_interface_package) StdoutLine: {'line': b'writing top-level names to sfr_coursework2_interface_package.egg-info/top_level.txt\n'}
+[19.975004] (sfr_coursework2_interface_package) StdoutLine: {'line': b"writing manifest file 'sfr_coursework2_interface_package.egg-info/SOURCES.txt'\n"}
+[19.978430] (-) TimerEvent: {}
+[20.078978] (-) TimerEvent: {}
+[20.146547] (sfr_coursework2_interface_package) StdoutLine: {'line': b"reading manifest file 'sfr_coursework2_interface_package.egg-info/SOURCES.txt'\n"}
+[20.148465] (sfr_coursework2_interface_package) StdoutLine: {'line': b"writing manifest file 'sfr_coursework2_interface_package.egg-info/SOURCES.txt'\n"}
+[20.179170] (-) TimerEvent: {}
+[20.243589] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 17%] Built target ament_cmake_python_build_sfr_coursework2_interface_package_egg\n'}
+[20.279511] (-) TimerEvent: {}
+[20.283458] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[20.379741] (-) TimerEvent: {}
+[20.480512] (-) TimerEvent: {}
+[20.581140] (-) TimerEvent: {}
+[20.681701] (-) TimerEvent: {}
+[20.782599] (-) TimerEvent: {}
+[20.883396] (-) TimerEvent: {}
+[20.984109] (-) TimerEvent: {}
+[21.084818] (-) TimerEvent: {}
+[21.185561] (-) TimerEvent: {}
+[21.263584] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/sfr_coursework2_interface_package__rosidl_typesupport_c.dir/rosidl_typesupport_c/sfr_coursework2_interface_package/action/drone_control__type_support.cpp.o\x1b[0m\n'}
+[21.285718] (-) TimerEvent: {}
+[21.386416] (-) TimerEvent: {}
+[21.487302] (-) TimerEvent: {}
+[21.496230] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 26%] \x1b[32m\x1b[1mLinking CXX shared library libsfr_coursework2_interface_package__rosidl_typesupport_c.so\x1b[0m\n'}
+[21.587463] (-) TimerEvent: {}
+[21.634394] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 26%] Built target sfr_coursework2_interface_package__rosidl_typesupport_c\n'}
+[21.668570] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[21.687748] (-) TimerEvent: {}
+[21.788635] (-) TimerEvent: {}
+[21.889208] (-) TimerEvent: {}
+[21.989810] (-) TimerEvent: {}
+[22.090454] (-) TimerEvent: {}
+[22.191025] (-) TimerEvent: {}
+[22.292051] (-) TimerEvent: {}
+[22.392921] (-) TimerEvent: {}
+[22.493642] (-) TimerEvent: {}
+[22.595674] (-) TimerEvent: {}
+[22.696393] (-) TimerEvent: {}
+[22.797060] (-) TimerEvent: {}
+[22.863496] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object CMakeFiles/sfr_coursework2_interface_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sfr_coursework2_interface_package/action/detail/drone_control__type_support.c.o\x1b[0m\n'}
+[22.897202] (-) TimerEvent: {}
+[22.997721] (-) TimerEvent: {}
+[23.098352] (-) TimerEvent: {}
+[23.115203] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking C shared library libsfr_coursework2_interface_package__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[23.199008] (-) TimerEvent: {}
+[23.259270] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 35%] Built target sfr_coursework2_interface_package__rosidl_typesupport_introspection_c\n'}
+[23.299179] (-) TimerEvent: {}
+[23.322120] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[23.399522] (-) TimerEvent: {}
+[23.500294] (-) TimerEvent: {}
+[23.602286] (-) TimerEvent: {}
+[23.702951] (-) TimerEvent: {}
+[23.803648] (-) TimerEvent: {}
+[23.906065] (-) TimerEvent: {}
+[24.007109] (-) TimerEvent: {}
+[24.107956] (-) TimerEvent: {}
+[24.222692] (-) TimerEvent: {}
+[24.325109] (-) TimerEvent: {}
+[24.426059] (-) TimerEvent: {}
+[24.527092] (-) TimerEvent: {}
+[24.628573] (-) TimerEvent: {}
+[24.730393] (-) TimerEvent: {}
+[24.831960] (-) TimerEvent: {}
+[24.932799] (-) TimerEvent: {}
+[25.033403] (-) TimerEvent: {}
+[25.134131] (-) TimerEvent: {}
+[25.234687] (-) TimerEvent: {}
+[25.272730] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/sfr_coursework2_interface_package__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sfr_coursework2_interface_package/action/detail/drone_control__type_support_c.cpp.o\x1b[0m\n'}
+[25.334953] (-) TimerEvent: {}
+[25.435611] (-) TimerEvent: {}
+[25.536392] (-) TimerEvent: {}
+[25.637158] (-) TimerEvent: {}
+[25.737772] (-) TimerEvent: {}
+[25.838361] (-) TimerEvent: {}
+[25.939037] (-) TimerEvent: {}
+[26.039757] (-) TimerEvent: {}
+[26.141114] (-) TimerEvent: {}
+[26.242156] (-) TimerEvent: {}
+[26.343731] (-) TimerEvent: {}
+[26.444775] (-) TimerEvent: {}
+[26.545474] (-) TimerEvent: {}
+[26.646184] (-) TimerEvent: {}
+[26.747321] (-) TimerEvent: {}
+[26.848358] (-) TimerEvent: {}
+[26.949176] (-) TimerEvent: {}
+[27.050171] (-) TimerEvent: {}
+[27.151170] (-) TimerEvent: {}
+[27.252036] (-) TimerEvent: {}
+[27.352696] (-) TimerEvent: {}
+[27.453306] (-) TimerEvent: {}
+[27.554056] (-) TimerEvent: {}
+[27.654854] (-) TimerEvent: {}
+[27.755777] (-) TimerEvent: {}
+[27.857068] (-) TimerEvent: {}
+[27.958450] (-) TimerEvent: {}
+[28.012264] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libsfr_coursework2_interface_package__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[28.058616] (-) TimerEvent: {}
+[28.159227] (-) TimerEvent: {}
+[28.260032] (-) TimerEvent: {}
+[28.274938] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 44%] Built target sfr_coursework2_interface_package__rosidl_typesupport_fastrtps_c\n'}
+[28.360221] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 47%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[28.360797] (-) TimerEvent: {}
+[28.461367] (-) TimerEvent: {}
+[28.562411] (-) TimerEvent: {}
+[28.663351] (-) TimerEvent: {}
+[28.764343] (-) TimerEvent: {}
+[28.865563] (-) TimerEvent: {}
+[28.967430] (-) TimerEvent: {}
+[29.068006] (-) TimerEvent: {}
+[29.168587] (-) TimerEvent: {}
+[29.269347] (-) TimerEvent: {}
+[29.370083] (-) TimerEvent: {}
+[29.470945] (-) TimerEvent: {}
+[29.571737] (-) TimerEvent: {}
+[29.672405] (-) TimerEvent: {}
+[29.773559] (-) TimerEvent: {}
+[29.875412] (-) TimerEvent: {}
+[29.976518] (-) TimerEvent: {}
+[30.077270] (-) TimerEvent: {}
+[30.157721] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 47%] Built target sfr_coursework2_interface_package__cpp\n'}
+[30.177578] (-) TimerEvent: {}
+[30.202963] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 50%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[30.278123] (-) TimerEvent: {}
+[30.378833] (-) TimerEvent: {}
+[30.479499] (-) TimerEvent: {}
+[30.580122] (-) TimerEvent: {}
+[30.680717] (-) TimerEvent: {}
+[30.781401] (-) TimerEvent: {}
+[30.882026] (-) TimerEvent: {}
+[30.983024] (-) TimerEvent: {}
+[31.083998] (-) TimerEvent: {}
+[31.184682] (-) TimerEvent: {}
+[31.285544] (-) TimerEvent: {}
+[31.381783] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/sfr_coursework2_interface_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sfr_coursework2_interface_package/action/drone_control__type_support.cpp.o\x1b[0m\n'}
+[31.385819] (-) TimerEvent: {}
+[31.486759] (-) TimerEvent: {}
+[31.588317] (-) TimerEvent: {}
+[31.689262] (-) TimerEvent: {}
+[31.789789] (-) TimerEvent: {}
+[31.890543] (-) TimerEvent: {}
+[31.991363] (-) TimerEvent: {}
+[32.091992] (-) TimerEvent: {}
+[32.192666] (-) TimerEvent: {}
+[32.293516] (-) TimerEvent: {}
+[32.394177] (-) TimerEvent: {}
+[32.494694] (-) TimerEvent: {}
+[32.595545] (-) TimerEvent: {}
+[32.696337] (-) TimerEvent: {}
+[32.797558] (-) TimerEvent: {}
+[32.898489] (-) TimerEvent: {}
+[32.999328] (-) TimerEvent: {}
+[33.099935] (-) TimerEvent: {}
+[33.201437] (-) TimerEvent: {}
+[33.303087] (-) TimerEvent: {}
+[33.404103] (-) TimerEvent: {}
+[33.507008] (-) TimerEvent: {}
+[33.608588] (-) TimerEvent: {}
+[33.709513] (-) TimerEvent: {}
+[33.810712] (-) TimerEvent: {}
+[33.913244] (-) TimerEvent: {}
+[34.015244] (-) TimerEvent: {}
+[34.120022] (-) TimerEvent: {}
+[34.220778] (-) TimerEvent: {}
+[34.321745] (-) TimerEvent: {}
+[34.423333] (-) TimerEvent: {}
+[34.525173] (-) TimerEvent: {}
+[34.570258] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libsfr_coursework2_interface_package__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[34.625731] (-) TimerEvent: {}
+[34.726821] (-) TimerEvent: {}
+[34.828480] (-) TimerEvent: {}
+[34.920905] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 55%] Built target sfr_coursework2_interface_package__rosidl_typesupport_cpp\n'}
+[34.928659] (-) TimerEvent: {}
+[34.961073] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 58%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[35.028958] (-) TimerEvent: {}
+[35.129957] (-) TimerEvent: {}
+[35.230736] (-) TimerEvent: {}
+[35.331519] (-) TimerEvent: {}
+[35.432584] (-) TimerEvent: {}
+[35.533474] (-) TimerEvent: {}
+[35.634333] (-) TimerEvent: {}
+[35.735185] (-) TimerEvent: {}
+[35.836072] (-) TimerEvent: {}
+[35.937136] (-) TimerEvent: {}
+[36.038106] (-) TimerEvent: {}
+[36.138762] (-) TimerEvent: {}
+[36.240009] (-) TimerEvent: {}
+[36.341174] (-) TimerEvent: {}
+[36.346067] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/sfr_coursework2_interface_package__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sfr_coursework2_interface_package/action/detail/drone_control__type_support.cpp.o\x1b[0m\n'}
+[36.441404] (-) TimerEvent: {}
+[36.542524] (-) TimerEvent: {}
+[36.643418] (-) TimerEvent: {}
+[36.744042] (-) TimerEvent: {}
+[36.844631] (-) TimerEvent: {}
+[36.945305] (-) TimerEvent: {}
+[37.045988] (-) TimerEvent: {}
+[37.150127] (-) TimerEvent: {}
+[37.251053] (-) TimerEvent: {}
+[37.351992] (-) TimerEvent: {}
+[37.452713] (-) TimerEvent: {}
+[37.553681] (-) TimerEvent: {}
+[37.654806] (-) TimerEvent: {}
+[37.756035] (-) TimerEvent: {}
+[37.856722] (-) TimerEvent: {}
+[37.957352] (-) TimerEvent: {}
+[38.058061] (-) TimerEvent: {}
+[38.158928] (-) TimerEvent: {}
+[38.259837] (-) TimerEvent: {}
+[38.360451] (-) TimerEvent: {}
+[38.462086] (-) TimerEvent: {}
+[38.562980] (-) TimerEvent: {}
+[38.669733] (-) TimerEvent: {}
+[38.780119] (-) TimerEvent: {}
+[38.881119] (-) TimerEvent: {}
+[38.982036] (-) TimerEvent: {}
+[39.083170] (-) TimerEvent: {}
+[39.186361] (-) TimerEvent: {}
+[39.286966] (-) TimerEvent: {}
+[39.387517] (-) TimerEvent: {}
+[39.488197] (-) TimerEvent: {}
+[39.589032] (-) TimerEvent: {}
+[39.689967] (-) TimerEvent: {}
+[39.713241] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libsfr_coursework2_interface_package__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[39.790268] (-) TimerEvent: {}
+[39.891144] (-) TimerEvent: {}
+[39.991682] (-) TimerEvent: {}
+[40.058956] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 64%] Built target sfr_coursework2_interface_package__rosidl_typesupport_introspection_cpp\n'}
+[40.092018] (-) TimerEvent: {}
+[40.111015] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 67%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[40.192244] (-) TimerEvent: {}
+[40.293141] (-) TimerEvent: {}
+[40.395956] (-) TimerEvent: {}
+[40.496804] (-) TimerEvent: {}
+[40.597831] (-) TimerEvent: {}
+[40.698742] (-) TimerEvent: {}
+[40.799681] (-) TimerEvent: {}
+[40.900915] (-) TimerEvent: {}
+[41.017637] (-) TimerEvent: {}
+[41.118664] (-) TimerEvent: {}
+[41.221855] (-) TimerEvent: {}
+[41.322913] (-) TimerEvent: {}
+[41.423640] (-) TimerEvent: {}
+[41.524455] (-) TimerEvent: {}
+[41.626074] (-) TimerEvent: {}
+[41.727082] (-) TimerEvent: {}
+[41.827954] (-) TimerEvent: {}
+[41.928949] (-) TimerEvent: {}
+[41.939108] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/sfr_coursework2_interface_package__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sfr_coursework2_interface_package/action/detail/dds_fastrtps/drone_control__type_support.cpp.o\x1b[0m\n'}
+[42.029714] (-) TimerEvent: {}
+[42.130679] (-) TimerEvent: {}
+[42.231410] (-) TimerEvent: {}
+[42.333146] (-) TimerEvent: {}
+[42.434649] (-) TimerEvent: {}
+[42.536082] (-) TimerEvent: {}
+[42.637107] (-) TimerEvent: {}
+[42.738327] (-) TimerEvent: {}
+[42.839093] (-) TimerEvent: {}
+[42.939997] (-) TimerEvent: {}
+[43.041995] (-) TimerEvent: {}
+[43.142905] (-) TimerEvent: {}
+[43.243554] (-) TimerEvent: {}
+[43.344274] (-) TimerEvent: {}
+[43.445133] (-) TimerEvent: {}
+[43.546688] (-) TimerEvent: {}
+[43.648261] (-) TimerEvent: {}
+[43.749622] (-) TimerEvent: {}
+[43.850985] (-) TimerEvent: {}
+[43.951941] (-) TimerEvent: {}
+[44.052623] (-) TimerEvent: {}
+[44.153366] (-) TimerEvent: {}
+[44.254011] (-) TimerEvent: {}
+[44.354856] (-) TimerEvent: {}
+[44.456002] (-) TimerEvent: {}
+[44.556606] (-) TimerEvent: {}
+[44.657360] (-) TimerEvent: {}
+[44.758157] (-) TimerEvent: {}
+[44.858821] (-) TimerEvent: {}
+[44.959414] (-) TimerEvent: {}
+[45.060028] (-) TimerEvent: {}
+[45.160747] (-) TimerEvent: {}
+[45.261506] (-) TimerEvent: {}
+[45.362484] (-) TimerEvent: {}
+[45.463917] (-) TimerEvent: {}
+[45.565166] (-) TimerEvent: {}
+[45.665911] (-) TimerEvent: {}
+[45.767123] (-) TimerEvent: {}
+[45.867717] (-) TimerEvent: {}
+[45.968518] (-) TimerEvent: {}
+[46.069134] (-) TimerEvent: {}
+[46.169691] (-) TimerEvent: {}
+[46.270301] (-) TimerEvent: {}
+[46.370959] (-) TimerEvent: {}
+[46.437047] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libsfr_coursework2_interface_package__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[46.471277] (-) TimerEvent: {}
+[46.573071] (-) TimerEvent: {}
+[46.674010] (-) TimerEvent: {}
+[46.775635] (-) TimerEvent: {}
+[46.803645] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 73%] Built target sfr_coursework2_interface_package__rosidl_typesupport_fastrtps_cpp\n'}
+[46.875966] (-) TimerEvent: {}
+[46.887836] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 73%] Built target sfr_coursework2_interface_package\n'}
+[46.976386] (-) TimerEvent: {}
+[46.990235] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[47.076528] (-) TimerEvent: {}
+[47.177263] (-) TimerEvent: {}
+[47.277964] (-) TimerEvent: {}
+[47.378643] (-) TimerEvent: {}
+[47.480099] (-) TimerEvent: {}
+[47.581235] (-) TimerEvent: {}
+[47.681969] (-) TimerEvent: {}
+[47.782608] (-) TimerEvent: {}
+[47.883464] (-) TimerEvent: {}
+[47.984088] (-) TimerEvent: {}
+[48.084693] (-) TimerEvent: {}
+[48.185314] (-) TimerEvent: {}
+[48.285924] (-) TimerEvent: {}
+[48.386555] (-) TimerEvent: {}
+[48.487413] (-) TimerEvent: {}
+[48.588652] (-) TimerEvent: {}
+[48.689332] (-) TimerEvent: {}
+[48.790092] (-) TimerEvent: {}
+[48.890584] (-) TimerEvent: {}
+[48.991410] (-) TimerEvent: {}
+[49.092325] (-) TimerEvent: {}
+[49.192901] (-) TimerEvent: {}
+[49.293659] (-) TimerEvent: {}
+[49.394466] (-) TimerEvent: {}
+[49.495182] (-) TimerEvent: {}
+[49.582548] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 76%] Built target sfr_coursework2_interface_package__py\n'}
+[49.595371] (-) TimerEvent: {}
+[49.672494] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/sfr_coursework2_interface_package__rosidl_generator_py.dir/rosidl_generator_py/sfr_coursework2_interface_package/action/_drone_control_s.c.o\x1b[0m\n'}
+[49.695565] (-) TimerEvent: {}
+[49.796174] (-) TimerEvent: {}
+[49.896896] (-) TimerEvent: {}
+[49.997542] (-) TimerEvent: {}
+[50.098316] (-) TimerEvent: {}
+[50.199294] (-) TimerEvent: {}
+[50.299985] (-) TimerEvent: {}
+[50.401781] (-) TimerEvent: {}
+[50.502679] (-) TimerEvent: {}
+[50.606116] (-) TimerEvent: {}
+[50.661738] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libsfr_coursework2_interface_package__rosidl_generator_py.so\x1b[0m\n'}
+[50.709128] (-) TimerEvent: {}
+[50.811025] (-) TimerEvent: {}
+[50.868348] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 82%] Built target sfr_coursework2_interface_package__rosidl_generator_py\n'}
+[50.922968] (-) TimerEvent: {}
+[50.960924] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/sfr_coursework2_interface_package_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/sfr_coursework2_interface_package/_sfr_coursework2_interface_package_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[51.023160] (-) TimerEvent: {}
+[51.124149] (-) TimerEvent: {}
+[51.226835] (-) TimerEvent: {}
+[51.328004] (-) TimerEvent: {}
+[51.429397] (-) TimerEvent: {}
+[51.499488] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/sfr_coursework2_interface_package/sfr_coursework2_interface_package_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[51.529693] (-) TimerEvent: {}
+[51.630898] (-) TimerEvent: {}
+[51.657478] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 88%] Built target sfr_coursework2_interface_package_s__rosidl_typesupport_fastrtps_c\n'}
+[51.731275] (-) TimerEvent: {}
+[51.746422] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/sfr_coursework2_interface_package_s__rosidl_typesupport_c.dir/rosidl_generator_py/sfr_coursework2_interface_package/_sfr_coursework2_interface_package_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[51.831452] (-) TimerEvent: {}
+[51.932229] (-) TimerEvent: {}
+[52.032781] (-) TimerEvent: {}
+[52.133436] (-) TimerEvent: {}
+[52.234230] (-) TimerEvent: {}
+[52.278055] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/sfr_coursework2_interface_package/sfr_coursework2_interface_package_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[52.334427] (-) TimerEvent: {}
+[52.421834] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 94%] Built target sfr_coursework2_interface_package_s__rosidl_typesupport_c\n'}
+[52.434663] (-) TimerEvent: {}
+[52.497746] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/sfr_coursework2_interface_package_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/sfr_coursework2_interface_package/_sfr_coursework2_interface_package_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[52.534930] (-) TimerEvent: {}
+[52.635786] (-) TimerEvent: {}
+[52.736384] (-) TimerEvent: {}
+[52.837131] (-) TimerEvent: {}
+[52.937905] (-) TimerEvent: {}
+[53.039334] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/sfr_coursework2_interface_package/sfr_coursework2_interface_package_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[53.040635] (-) TimerEvent: {}
+[53.142131] (-) TimerEvent: {}
+[53.192478] (sfr_coursework2_interface_package) StdoutLine: {'line': b'[100%] Built target sfr_coursework2_interface_package_s__rosidl_typesupport_introspection_c\n'}
+[53.242280] (sfr_coursework2_interface_package) CommandEnded: {'returncode': 0}
+[53.244912] (-) TimerEvent: {}
+[53.247777] (sfr_coursework2_interface_package) JobProgress: {'identifier': 'sfr_coursework2_interface_package', 'progress': 'install'}
+[53.287035] (sfr_coursework2_interface_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/student20/Downloads/coursework2/build/sfr_coursework2_interface_package'], 'cwd': '/home/student20/Downloads/coursework2/build/sfr_coursework2_interface_package', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'student20', 'LC_TIME': 'en_GB.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/antigravity/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'ANTIGRAVITY_CLI_ALIAS': 'agy', 'HOME': '/home/student20', 'CHROME_DESKTOP': 'antigravity.desktop', 'TERM_PROGRAM_VERSION': '1.104.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/antigravity.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'cat', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/antigravity/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_GB.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/antigravity/antigravity', 'MANAGERPID': '2158', 'SYSTEMD_EXEC_PID': '2485', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'COLORTERM': 'truecolor', 'ANTIGRAVITY_AGENT': '1', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '97447', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/student20/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'student20', 'JOURNAL_STREAM': '9:22764', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1001.slice/user@1001.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'student20', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/student20/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/student20/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/e-24ul523g78p:@/tmp/.ICE-unix/2420,unix/e-24ul523g78p:/tmp/.ICE-unix/2420', 'INVOCATION_ID': '70ab320adb0f4a10bdc1e6bdc9a5ae01', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_GB.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1001', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'en_GB.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1001/.mutter-Xwaylandauth.9IG4H3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SBX_CHROME_API_RQ': '1', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1001/vscode-git-cd85dcbfb7.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1001/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'en_GB.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_GB.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_GB.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/student20/Downloads/coursework2/build/sfr_coursework2_interface_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_GB.UTF-8', 'LC_PAPER': 'en_GB.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[53.323132] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[53.325762] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/ament_index/resource_index/rosidl_interfaces/sfr_coursework2_interface_package\n'}
+[53.326295] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/action/DroneControl.json\n'}
+[53.326694] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package\n'}
+[53.328127] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package/action\n'}
+[53.328618] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package/action/drone_control.h\n'}
+[53.329007] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package/action/detail\n'}
+[53.329815] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package/action/detail/drone_control__functions.c\n'}
+[53.330672] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package/action/detail/drone_control__functions.h\n'}
+[53.330995] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package/action/detail/drone_control__type_support.c\n'}
+[53.331331] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package/action/detail/drone_control__description.c\n'}
+[53.331505] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package/action/detail/drone_control__struct.h\n'}
+[53.331700] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package/action/detail/drone_control__type_support.h\n'}
+[53.331937] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package/msg\n'}
+[53.332385] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package/msg/rosidl_generator_c__visibility_control.h\n'}
+[53.334090] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/environment/library_path.sh\n'}
+[53.334653] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/environment/library_path.dsv\n'}
+[53.335433] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/libsfr_coursework2_interface_package__rosidl_generator_c.so\n'}
+[53.336135] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/libsfr_coursework2_interface_package__rosidl_generator_c.so" to ""\n'}
+[53.337130] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Up-to-date: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package\n'}
+[53.337351] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Up-to-date: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package/action\n'}
+[53.337513] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Up-to-date: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package/action/detail\n'}
+[53.337680] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package/action/detail/drone_control__rosidl_typesupport_fastrtps_c.h\n'}
+[53.337817] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Up-to-date: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package/msg\n'}
+[53.338033] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[53.338457] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/libsfr_coursework2_interface_package__rosidl_typesupport_fastrtps_c.so\n'}
+[53.339005] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/libsfr_coursework2_interface_package__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[53.339341] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Up-to-date: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package\n'}
+[53.339695] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Up-to-date: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package/action\n'}
+[53.339992] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package/action/drone_control.hpp\n'}
+[53.340300] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Up-to-date: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package/action/detail\n'}
+[53.340560] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package/action/detail/drone_control__builder.hpp\n'}
+[53.341022] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package/action/detail/drone_control__traits.hpp\n'}
+[53.341493] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package/action/detail/drone_control__type_support.hpp\n'}
+[53.341823] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package/action/detail/drone_control__struct.hpp\n'}
+[53.342549] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Up-to-date: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package/msg\n'}
+[53.343062] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[53.343856] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Up-to-date: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package\n'}
+[53.344168] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Up-to-date: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package/action\n'}
+[53.347284] (-) TimerEvent: {}
+[53.347583] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Up-to-date: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package/action/detail\n'}
+[53.349287] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package/action/detail/drone_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[53.349636] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package/action/detail/dds_fastrtps\n'}
+[53.349809] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Up-to-date: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package/msg\n'}
+[53.350109] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[53.350618] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/libsfr_coursework2_interface_package__rosidl_typesupport_fastrtps_cpp.so\n'}
+[53.351635] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/libsfr_coursework2_interface_package__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[53.352129] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Up-to-date: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package\n'}
+[53.352591] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Up-to-date: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package/action\n'}
+[53.353012] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Up-to-date: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package/action/detail\n'}
+[53.353458] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package/action/detail/drone_control__rosidl_typesupport_introspection_c.h\n'}
+[53.353958] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package/action/detail/drone_control__type_support.c\n'}
+[53.354365] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Up-to-date: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package/msg\n'}
+[53.356800] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[53.357448] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/libsfr_coursework2_interface_package__rosidl_typesupport_introspection_c.so\n'}
+[53.357795] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/libsfr_coursework2_interface_package__rosidl_typesupport_introspection_c.so" to ""\n'}
+[53.358413] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/libsfr_coursework2_interface_package__rosidl_typesupport_c.so\n'}
+[53.361532] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/libsfr_coursework2_interface_package__rosidl_typesupport_c.so" to ""\n'}
+[53.362131] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Up-to-date: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package\n'}
+[53.363143] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Up-to-date: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package/action\n'}
+[53.363469] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Up-to-date: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package/action/detail\n'}
+[53.363927] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package/action/detail/drone_control__type_support.cpp\n'}
+[53.364413] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/include/sfr_coursework2_interface_package/sfr_coursework2_interface_package/action/detail/drone_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[53.364780] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/libsfr_coursework2_interface_package__rosidl_typesupport_introspection_cpp.so\n'}
+[53.365733] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/libsfr_coursework2_interface_package__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[53.366958] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/libsfr_coursework2_interface_package__rosidl_typesupport_cpp.so\n'}
+[53.367547] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/libsfr_coursework2_interface_package__rosidl_typesupport_cpp.so" to ""\n'}
+[53.368027] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/environment/pythonpath.sh\n'}
+[53.368447] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/environment/pythonpath.dsv\n'}
+[53.368769] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/python3.12/site-packages/sfr_coursework2_interface_package-0.0.0-py3.12.egg-info\n'}
+[53.369161] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/python3.12/site-packages/sfr_coursework2_interface_package-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[53.369685] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/python3.12/site-packages/sfr_coursework2_interface_package-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[53.370192] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/python3.12/site-packages/sfr_coursework2_interface_package-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[53.370680] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/python3.12/site-packages/sfr_coursework2_interface_package-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[53.371019] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/python3.12/site-packages/sfr_coursework2_interface_package\n'}
+[53.371351] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/python3.12/site-packages/sfr_coursework2_interface_package/_sfr_coursework2_interface_package_s.ep.rosidl_typesupport_c.c\n'}
+[53.371595] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/python3.12/site-packages/sfr_coursework2_interface_package/action\n'}
+[53.371964] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/python3.12/site-packages/sfr_coursework2_interface_package/action/_drone_control_s.c\n'}
+[53.372288] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/python3.12/site-packages/sfr_coursework2_interface_package/action/__init__.py\n'}
+[53.372692] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/python3.12/site-packages/sfr_coursework2_interface_package/action/_drone_control.py\n'}
+[53.373086] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/python3.12/site-packages/sfr_coursework2_interface_package/sfr_coursework2_interface_package_s__rosidl_typesupport_c.so\n'}
+[53.373565] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/python3.12/site-packages/sfr_coursework2_interface_package/_sfr_coursework2_interface_package_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[53.373933] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/python3.12/site-packages/sfr_coursework2_interface_package/__init__.py\n'}
+[53.374295] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/python3.12/site-packages/sfr_coursework2_interface_package/sfr_coursework2_interface_package_s__rosidl_typesupport_fastrtps_c.so\n'}
+[53.374571] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/python3.12/site-packages/sfr_coursework2_interface_package/sfr_coursework2_interface_package_s__rosidl_typesupport_introspection_c.so\n'}
+[53.374905] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/python3.12/site-packages/sfr_coursework2_interface_package/_sfr_coursework2_interface_package_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[53.447491] (-) TimerEvent: {}
+[53.548210] (-) TimerEvent: {}
+[53.587619] (sfr_coursework2_interface_package) StdoutLine: {'line': b"Listing '/home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/python3.12/site-packages/sfr_coursework2_interface_package'...\n"}
+[53.588181] (sfr_coursework2_interface_package) StdoutLine: {'line': b"Compiling '/home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/python3.12/site-packages/sfr_coursework2_interface_package/__init__.py'...\n"}
+[53.588385] (sfr_coursework2_interface_package) StdoutLine: {'line': b"Listing '/home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/python3.12/site-packages/sfr_coursework2_interface_package/action'...\n"}
+[53.588544] (sfr_coursework2_interface_package) StdoutLine: {'line': b"Compiling '/home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/python3.12/site-packages/sfr_coursework2_interface_package/action/__init__.py'...\n"}
+[53.588710] (sfr_coursework2_interface_package) StdoutLine: {'line': b"Compiling '/home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/python3.12/site-packages/sfr_coursework2_interface_package/action/_drone_control.py'...\n"}
+[53.617575] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/python3.12/site-packages/sfr_coursework2_interface_package/sfr_coursework2_interface_package_s__rosidl_typesupport_fastrtps_c.so\n'}
+[53.619430] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/python3.12/site-packages/sfr_coursework2_interface_package/sfr_coursework2_interface_package_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[53.620080] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/python3.12/site-packages/sfr_coursework2_interface_package/sfr_coursework2_interface_package_s__rosidl_typesupport_introspection_c.so\n'}
+[53.621041] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/python3.12/site-packages/sfr_coursework2_interface_package/sfr_coursework2_interface_package_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[53.621545] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/python3.12/site-packages/sfr_coursework2_interface_package/sfr_coursework2_interface_package_s__rosidl_typesupport_c.so\n'}
+[53.621927] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/python3.12/site-packages/sfr_coursework2_interface_package/sfr_coursework2_interface_package_s__rosidl_typesupport_c.so" to ""\n'}
+[53.622246] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/libsfr_coursework2_interface_package__rosidl_generator_py.so\n'}
+[53.624277] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/libsfr_coursework2_interface_package__rosidl_generator_py.so" to ""\n'}
+[53.624823] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/action/DroneControl.idl\n'}
+[53.625182] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/action/DroneControl.action\n'}
+[53.627061] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/ament_index/resource_index/package_run_dependencies/sfr_coursework2_interface_package\n'}
+[53.628386] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/ament_index/resource_index/parent_prefix_path/sfr_coursework2_interface_package\n'}
+[53.629129] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/environment/ament_prefix_path.sh\n'}
+[53.630045] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/environment/ament_prefix_path.dsv\n'}
+[53.630789] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/environment/path.sh\n'}
+[53.631508] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/environment/path.dsv\n'}
+[53.632498] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/local_setup.bash\n'}
+[53.633794] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/local_setup.sh\n'}
+[53.634357] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/local_setup.zsh\n'}
+[53.634701] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/local_setup.dsv\n'}
+[53.635124] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/package.dsv\n'}
+[53.635455] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/ament_index/resource_index/packages/sfr_coursework2_interface_package\n'}
+[53.635767] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/cmake/export_sfr_coursework2_interface_package__rosidl_generator_cExport.cmake\n'}
+[53.636082] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/cmake/export_sfr_coursework2_interface_package__rosidl_generator_cExport-noconfig.cmake\n'}
+[53.636341] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/cmake/export_sfr_coursework2_interface_package__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[53.636624] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/cmake/export_sfr_coursework2_interface_package__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[53.637062] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/cmake/export_sfr_coursework2_interface_package__rosidl_generator_cppExport.cmake\n'}
+[53.637618] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/cmake/export_sfr_coursework2_interface_package__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[53.637929] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/cmake/export_sfr_coursework2_interface_package__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[53.638364] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/cmake/sfr_coursework2_interface_package__rosidl_typesupport_introspection_cExport.cmake\n'}
+[53.638621] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/cmake/sfr_coursework2_interface_package__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[53.638907] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/cmake/sfr_coursework2_interface_package__rosidl_typesupport_cExport.cmake\n'}
+[53.639172] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/cmake/sfr_coursework2_interface_package__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[53.639497] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/cmake/sfr_coursework2_interface_package__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[53.639770] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/cmake/sfr_coursework2_interface_package__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[53.640079] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/cmake/sfr_coursework2_interface_package__rosidl_typesupport_cppExport.cmake\n'}
+[53.640338] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/cmake/sfr_coursework2_interface_package__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[53.640589] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/cmake/export_sfr_coursework2_interface_package__rosidl_generator_pyExport.cmake\n'}
+[53.640877] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/cmake/export_sfr_coursework2_interface_package__rosidl_generator_pyExport-noconfig.cmake\n'}
+[53.641123] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/cmake/rosidl_cmake-extras.cmake\n'}
+[53.641363] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[53.641604] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[53.641828] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[53.642112] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[53.642600] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[53.643204] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[53.643462] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/cmake/sfr_coursework2_interface_packageConfig.cmake\n'}
+[53.643720] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/cmake/sfr_coursework2_interface_packageConfig-version.cmake\n'}
+[53.644075] (sfr_coursework2_interface_package) StdoutLine: {'line': b'-- Installing: /home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/share/sfr_coursework2_interface_package/package.xml\n'}
+[53.646737] (sfr_coursework2_interface_package) CommandEnded: {'returncode': 0}
+[53.648788] (-) TimerEvent: {}
+[53.727988] (sfr_coursework2_interface_package) JobEnded: {'identifier': 'sfr_coursework2_interface_package', 'rc': 0}
+[53.731171] (vortex_droid_controller_pkg) JobStarted: {'identifier': 'vortex_droid_controller_pkg'}
+[53.749081] (-) TimerEvent: {}
+[53.852112] (-) TimerEvent: {}
+[53.953290] (-) TimerEvent: {}
+[54.054086] (-) TimerEvent: {}
+[54.154913] (-) TimerEvent: {}
+[54.255534] (-) TimerEvent: {}
+[54.356252] (-) TimerEvent: {}
+[54.457268] (-) TimerEvent: {}
+[54.558319] (-) TimerEvent: {}
+[54.659380] (-) TimerEvent: {}
+[54.760271] (-) TimerEvent: {}
+[54.860909] (-) TimerEvent: {}
+[54.961444] (-) TimerEvent: {}
+[55.062118] (-) TimerEvent: {}
+[55.162945] (-) TimerEvent: {}
+[55.264116] (-) TimerEvent: {}
+[55.365744] (-) TimerEvent: {}
+[55.466740] (-) TimerEvent: {}
+[55.568123] (-) TimerEvent: {}
+[55.669584] (-) TimerEvent: {}
+[55.770171] (-) TimerEvent: {}
+[55.870752] (-) TimerEvent: {}
+[55.971447] (-) TimerEvent: {}
+[56.072342] (-) TimerEvent: {}
+[56.174012] (-) TimerEvent: {}
+[56.275060] (-) TimerEvent: {}
+[56.375921] (-) TimerEvent: {}
+[56.476517] (-) TimerEvent: {}
+[56.577038] (-) TimerEvent: {}
+[56.677831] (-) TimerEvent: {}
+[56.778501] (-) TimerEvent: {}
+[56.879189] (-) TimerEvent: {}
+[56.979727] (-) TimerEvent: {}
+[57.080438] (-) TimerEvent: {}
+[57.181462] (-) TimerEvent: {}
+[57.282823] (-) TimerEvent: {}
+[57.382810] (vortex_droid_controller_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/vortex_droid_controller_pkg', 'build', '--build-base', '/home/student20/Downloads/coursework2/build/vortex_droid_controller_pkg/build', 'install', '--record', '/home/student20/Downloads/coursework2/build/vortex_droid_controller_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/student20/Downloads/coursework2/src/vortex_droid_controller_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'student20', 'LC_TIME': 'en_GB.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/antigravity/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'ANTIGRAVITY_CLI_ALIAS': 'agy', 'HOME': '/home/student20', 'CHROME_DESKTOP': 'antigravity.desktop', 'TERM_PROGRAM_VERSION': '1.104.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/antigravity.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'cat', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/antigravity/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_GB.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/antigravity/antigravity', 'MANAGERPID': '2158', 'SYSTEMD_EXEC_PID': '2485', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'COLORTERM': 'truecolor', 'ANTIGRAVITY_AGENT': '1', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '97447', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/student20/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'student20', 'JOURNAL_STREAM': '9:22764', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1001.slice/user@1001.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'student20', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/student20/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/student20/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/e-24ul523g78p:@/tmp/.ICE-unix/2420,unix/e-24ul523g78p:/tmp/.ICE-unix/2420', 'INVOCATION_ID': '70ab320adb0f4a10bdc1e6bdc9a5ae01', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_GB.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1001', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'en_GB.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1001/.mutter-Xwaylandauth.9IG4H3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SBX_CHROME_API_RQ': '1', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1001/vscode-git-cd85dcbfb7.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1001/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'en_GB.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_GB.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_GB.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/student20/Downloads/coursework2/build/vortex_droid_controller_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/student20/Downloads/coursework2/build/vortex_droid_controller_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student20/Downloads/coursework2/install/vortex_droid_controller_pkg/lib/python3.12/site-packages:/home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_GB.UTF-8', 'LC_PAPER': 'en_GB.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/student20/Downloads/coursework2/install/sfr_coursework2_interface_package:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[57.388184] (-) TimerEvent: {}
+[57.489386] (-) TimerEvent: {}
+[57.590951] (-) TimerEvent: {}
+[57.691609] (-) TimerEvent: {}
+[57.793042] (-) TimerEvent: {}
+[57.895074] (-) TimerEvent: {}
+[57.996069] (-) TimerEvent: {}
+[58.097105] (-) TimerEvent: {}
+[58.197724] (-) TimerEvent: {}
+[58.298486] (-) TimerEvent: {}
+[58.399070] (-) TimerEvent: {}
+[58.499722] (-) TimerEvent: {}
+[58.585769] (vortex_droid_controller_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[58.586835] (vortex_droid_controller_pkg) StdoutLine: {'line': b'creating ../../build/vortex_droid_controller_pkg/vortex_droid_controller_pkg.egg-info\n'}
+[58.599947] (-) TimerEvent: {}
+[58.681850] (vortex_droid_controller_pkg) StdoutLine: {'line': b'writing ../../build/vortex_droid_controller_pkg/vortex_droid_controller_pkg.egg-info/PKG-INFO\n'}
+[58.682683] (vortex_droid_controller_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/vortex_droid_controller_pkg/vortex_droid_controller_pkg.egg-info/dependency_links.txt\n'}
+[58.683103] (vortex_droid_controller_pkg) StdoutLine: {'line': b'writing entry points to ../../build/vortex_droid_controller_pkg/vortex_droid_controller_pkg.egg-info/entry_points.txt\n'}
+[58.684085] (vortex_droid_controller_pkg) StdoutLine: {'line': b'writing requirements to ../../build/vortex_droid_controller_pkg/vortex_droid_controller_pkg.egg-info/requires.txt\n'}
+[58.684476] (vortex_droid_controller_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/vortex_droid_controller_pkg/vortex_droid_controller_pkg.egg-info/top_level.txt\n'}
+[58.684826] (vortex_droid_controller_pkg) StdoutLine: {'line': b"writing manifest file '../../build/vortex_droid_controller_pkg/vortex_droid_controller_pkg.egg-info/SOURCES.txt'\n"}
+[58.700093] (-) TimerEvent: {}
+[58.823384] (-) TimerEvent: {}
+[58.869748] (vortex_droid_controller_pkg) StdoutLine: {'line': b"reading manifest file '../../build/vortex_droid_controller_pkg/vortex_droid_controller_pkg.egg-info/SOURCES.txt'\n"}
+[58.872826] (vortex_droid_controller_pkg) StdoutLine: {'line': b"writing manifest file '../../build/vortex_droid_controller_pkg/vortex_droid_controller_pkg.egg-info/SOURCES.txt'\n"}
+[58.876562] (vortex_droid_controller_pkg) StdoutLine: {'line': b'running build\n'}
+[58.877153] (vortex_droid_controller_pkg) StdoutLine: {'line': b'running build_py\n'}
+[58.877664] (vortex_droid_controller_pkg) StdoutLine: {'line': b'creating /home/student20/Downloads/coursework2/build/vortex_droid_controller_pkg/build\n'}
+[58.878836] (vortex_droid_controller_pkg) StdoutLine: {'line': b'creating /home/student20/Downloads/coursework2/build/vortex_droid_controller_pkg/build/lib\n'}
+[58.879746] (vortex_droid_controller_pkg) StdoutLine: {'line': b'creating /home/student20/Downloads/coursework2/build/vortex_droid_controller_pkg/build/lib/vortex_droid_controller_pkg\n'}
+[58.880295] (vortex_droid_controller_pkg) StdoutLine: {'line': b'copying vortex_droid_controller_pkg/vortex_droid_controller_node.py -> /home/student20/Downloads/coursework2/build/vortex_droid_controller_pkg/build/lib/vortex_droid_controller_pkg\n'}
+[58.880594] (vortex_droid_controller_pkg) StdoutLine: {'line': b'copying vortex_droid_controller_pkg/__init__.py -> /home/student20/Downloads/coursework2/build/vortex_droid_controller_pkg/build/lib/vortex_droid_controller_pkg\n'}
+[58.880885] (vortex_droid_controller_pkg) StdoutLine: {'line': b'running install\n'}
+[58.902134] (vortex_droid_controller_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[58.932531] (-) TimerEvent: {}
+[59.029365] (vortex_droid_controller_pkg) StdoutLine: {'line': b'creating /home/student20/Downloads/coursework2/install/vortex_droid_controller_pkg/lib/python3.12/site-packages/vortex_droid_controller_pkg\n'}
+[59.030200] (vortex_droid_controller_pkg) StdoutLine: {'line': b'copying /home/student20/Downloads/coursework2/build/vortex_droid_controller_pkg/build/lib/vortex_droid_controller_pkg/vortex_droid_controller_node.py -> /home/student20/Downloads/coursework2/install/vortex_droid_controller_pkg/lib/python3.12/site-packages/vortex_droid_controller_pkg\n'}
+[59.030576] (vortex_droid_controller_pkg) StdoutLine: {'line': b'copying /home/student20/Downloads/coursework2/build/vortex_droid_controller_pkg/build/lib/vortex_droid_controller_pkg/__init__.py -> /home/student20/Downloads/coursework2/install/vortex_droid_controller_pkg/lib/python3.12/site-packages/vortex_droid_controller_pkg\n'}
+[59.030840] (vortex_droid_controller_pkg) StdoutLine: {'line': b'byte-compiling /home/student20/Downloads/coursework2/install/vortex_droid_controller_pkg/lib/python3.12/site-packages/vortex_droid_controller_pkg/vortex_droid_controller_node.py to vortex_droid_controller_node.cpython-312.pyc\n'}
+[59.031302] (vortex_droid_controller_pkg) StdoutLine: {'line': b'byte-compiling /home/student20/Downloads/coursework2/install/vortex_droid_controller_pkg/lib/python3.12/site-packages/vortex_droid_controller_pkg/__init__.py to __init__.cpython-312.pyc\n'}
+[59.031614] (vortex_droid_controller_pkg) StdoutLine: {'line': b'running install_data\n'}
+[59.033149] (-) TimerEvent: {}
+[59.033827] (vortex_droid_controller_pkg) StdoutLine: {'line': b'creating /home/student20/Downloads/coursework2/install/vortex_droid_controller_pkg/share/ament_index\n'}
+[59.034302] (vortex_droid_controller_pkg) StdoutLine: {'line': b'creating /home/student20/Downloads/coursework2/install/vortex_droid_controller_pkg/share/ament_index/resource_index\n'}
+[59.034560] (vortex_droid_controller_pkg) StdoutLine: {'line': b'creating /home/student20/Downloads/coursework2/install/vortex_droid_controller_pkg/share/ament_index/resource_index/packages\n'}
+[59.034788] (vortex_droid_controller_pkg) StdoutLine: {'line': b'copying resource/vortex_droid_controller_pkg -> /home/student20/Downloads/coursework2/install/vortex_droid_controller_pkg/share/ament_index/resource_index/packages\n'}
+[59.035055] (vortex_droid_controller_pkg) StdoutLine: {'line': b'copying package.xml -> /home/student20/Downloads/coursework2/install/vortex_droid_controller_pkg/share/vortex_droid_controller_pkg\n'}
+[59.035279] (vortex_droid_controller_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[59.112897] (vortex_droid_controller_pkg) StdoutLine: {'line': b'Copying ../../build/vortex_droid_controller_pkg/vortex_droid_controller_pkg.egg-info to /home/student20/Downloads/coursework2/install/vortex_droid_controller_pkg/lib/python3.12/site-packages/vortex_droid_controller_pkg-0.0.0-py3.12.egg-info\n'}
+[59.118686] (vortex_droid_controller_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[59.133488] (-) TimerEvent: {}
+[59.234911] (-) TimerEvent: {}
+[59.335533] (-) TimerEvent: {}
+[59.436260] (-) TimerEvent: {}
+[59.537041] (-) TimerEvent: {}
+[59.637718] (-) TimerEvent: {}
+[59.680766] (vortex_droid_controller_pkg) StdoutLine: {'line': b'Installing vortex_droid_controller_node script to /home/student20/Downloads/coursework2/install/vortex_droid_controller_pkg/lib/vortex_droid_controller_pkg\n'}
+[59.683034] (vortex_droid_controller_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/student20/Downloads/coursework2/build/vortex_droid_controller_pkg/install.log'\n"}
+[59.737873] (-) TimerEvent: {}
+[59.838579] (-) TimerEvent: {}
+[59.860734] (vortex_droid_controller_pkg) CommandEnded: {'returncode': 0}
+[59.887012] (vortex_droid_controller_pkg) JobEnded: {'identifier': 'vortex_droid_controller_pkg', 'rc': 0}
+[59.891896] (-) EventReactorShutdown: {}
