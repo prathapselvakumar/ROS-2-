@@ -1,6 +1,0 @@
-source;share/beta_pilot_controller_pkg/hook/pythonpath.dsv
-source;share/beta_pilot_controller_pkg/hook/pythonpath.sh
-source;share/beta_pilot_controller_pkg/hook/ament_prefix_path.dsv
-source;share/beta_pilot_controller_pkg/hook/ament_prefix_path.sh
-source;../../build/beta_pilot_controller_pkg/share/beta_pilot_controller_pkg/hook/pythonpath_develop.dsv
-source;../../build/beta_pilot_controller_pkg/share/beta_pilot_controller_pkg/hook/pythonpath_develop.sh

@@ -5,6 +5,8 @@ import math
 
 from sfr_coursework1_interface_package.msg import WheelAngularVelocities, TaskSpacePose
 from sfr_coursework1_interface_package.srv import TurnRobotOn, TurnRobotOff
+from geometry_msgs.msg import TransformStamped
+from tf2_ros import TransformBroadcaster
 
 
 class BetaPilotNode(Node):
@@ -46,6 +48,9 @@ class BetaPilotNode(Node):
             self.wheel_velocity_callback,
             qos
         )
+
+        # TF Broadcaster for RViz
+        self.tf_broadcaster = TransformBroadcaster(self)
 
         # Timer for robot motion updates
         self.create_timer(self.T, self.update_robot)
@@ -124,6 +129,47 @@ class BetaPilotNode(Node):
         pose_msg.y = self.y
         pose_msg.phi_z = self.phi
         self.pose_pub.publish(pose_msg)
+
+        # Broadcast transform (RViz visualization)
+        t = TransformStamped()
+        t.header.stamp = self.get_clock().now().to_msg()
+        t.header.frame_id = 'odom'
+        t.child_frame_id = 'base_link'
+        t.transform.translation.x = self.x
+        t.transform.translation.y = self.y
+        t.transform.translation.z = 0.0
+        
+        # Convert phi_z to quaternion
+        q = self.quaternion_from_euler(0, 0, self.phi)
+        t.transform.rotation.x = q[0]
+        t.transform.rotation.y = q[1]
+        t.transform.rotation.z = q[2]
+        t.transform.rotation.w = q[3]
+
+        self.tf_broadcaster.sendTransform(t)
+
+    def quaternion_from_euler(self, ai, aj, ak):
+        ai /= 2.0
+        aj /= 2.0
+        ak /= 2.0
+        ci = math.cos(ai)
+        si = math.sin(ai)
+        cj = math.cos(aj)
+        sj = math.sin(aj)
+        ck = math.cos(ak)
+        sk = math.sin(ak)
+        cc = ci*cj
+        cs = ci*sj
+        sc = si*cj
+        ss = si*sj
+
+        q = [
+            (sc*ck - cs*sk),
+            (sc*sk + cs*ck),
+            (cc*sk - ss*ck),
+            (cc*ck + ss*sk)
+        ]
+        return q
 
     # -------------------------------------------------------------
     # CLEAN SHUTDOWN

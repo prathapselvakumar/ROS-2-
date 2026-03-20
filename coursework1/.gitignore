@@ -1,0 +1,17 @@
+# ROS 2 Build Artifacts
+build/
+install/
+log/
+
+# Python Build Artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# VS Code
+.vscode/
+
+# Other
+.DS_Store

@@ -1,8 +1,0 @@
-msg/TaskSpacePose.idl
-msg/TaskSpacePose.msg
-msg/WheelAngularVelocities.idl
-msg/WheelAngularVelocities.msg
-srv/TurnRobotOff.idl
-srv/TurnRobotOff.srv
-srv/TurnRobotOn.idl
-srv/TurnRobotOn.srv

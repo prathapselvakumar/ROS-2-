@@ -1,1 +1,0 @@
-/home/student20/assessments/coursework1/build/sfr_coursework1_interface_package/rosidl_typesupport_introspection_c/sfr_coursework1_interface_package/msg/detail/task_space_pose__rosidl_typesupport_introspection_c.h

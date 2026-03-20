@@ -1,1 +1,0 @@
-/home/student20/assessments/coursework1/build/sfr_coursework1_interface_package/rosidl_generator_cpp/sfr_coursework1_interface_package/msg/detail/task_space_pose__builder.hpp

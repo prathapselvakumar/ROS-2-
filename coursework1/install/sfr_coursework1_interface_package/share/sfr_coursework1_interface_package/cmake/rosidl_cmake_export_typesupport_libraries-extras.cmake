@@ -1,1 +1,0 @@
-/home/student20/assessments/coursework1/build/sfr_coursework1_interface_package/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake

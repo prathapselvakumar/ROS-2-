@@ -1,1 +1,0 @@
-/home/student20/assessments/coursework1/build/sfr_coursework1_interface_package/rosidl_generator_cpp/sfr_coursework1_interface_package/srv/detail/turn_robot_on__traits.hpp
